@@ -41,7 +41,7 @@ Montar la primera parte del circuito y documentar cualquier diferencia respecto 
 ## Evidencias
 
 - Lista de materiales comprobada.
-- Fotografía del montaje inicial.
+- Esquema o captura de referencia del montaje inicial previsto.
 - Registro de incidencias.
 
 ## Explicación para el alumnado
@@ -92,7 +92,6 @@ Una buena práctica es usar cables de colores coherentes: rojo para 5 V, negro o
 
 ## Recursos
 
-- Fotografía del montaje físico inicial pendiente.
 - Esquemáticos de referencia para orientar el montaje físico en [`../../07-recursos-tecnicos/esquematicos/`](../../07-recursos-tecnicos/esquematicos/).
 - Lista de materiales por equipo: [`../../07-recursos-tecnicos/lista-materiales-por-equipo.md`](../../07-recursos-tecnicos/lista-materiales-por-equipo.md).
 - Referencia de inventario recomendada en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).

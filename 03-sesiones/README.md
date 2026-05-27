@@ -66,9 +66,6 @@ Cada bloque técnico puede seguir esta estructura:
 | Revisión y mejora | 08, 10, 13, 17, 19, 20 | Registro de errores y versiones corregidas. |
 | Presentación y evaluación | 21 | Prototipo, memoria técnica y presentación oral. |
 
-## Pendientes
+## Capturas disponibles
 
-- Enlaces a las tres simulaciones principales de Tinkercad: alimentación, medición/avisos y seguimiento solar.
-- Esquemáticos exportados como PDF en [`../07-recursos-tecnicos/esquematicos/`](../07-recursos-tecnicos/esquematicos/).
-- Capturas propias pendientes de las simulaciones de alimentación, medición/avisos, seguimiento solar y simulaciones parciales creadas para sesiones 01, 03, 04, 07, 09 y 11.
-- Código Arduino de referencia en [`../07-recursos-tecnicos/codigo/`](../07-recursos-tecnicos/codigo/).
+Las capturas de las simulaciones principales están disponibles en el README principal del repositorio. Las capturas parciales de las sesiones 01, 03, 04, 07, 09 y 11 están incorporadas en los README de cada sesión.

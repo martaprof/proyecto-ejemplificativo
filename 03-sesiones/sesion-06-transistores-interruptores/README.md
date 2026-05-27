@@ -93,7 +93,7 @@ Cuando el pin digital está en nivel alto, entra corriente por la base y el tran
 
 - Transistor seleccionado: 2N2222A NPN, con resistencia de base recomendada de 1 kΩ para conmutación didáctica.
 - Referencia técnica: [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
-- #TODO Crear o enlazar simulación de Tinkercad del zumbador controlado por transistor desde una salida digital.
+- Simulación de Tinkercad sobre uso del 2N2222A como interruptor desde Arduino: [motor CC con Arduino](https://www.tinkercad.com/things/cMGKJwXmMno-motor-cc-con-arduino). En el proyecto se usa la misma idea de conmutación para activar un zumbador activo de 5 V como carga.
 
 ## Tarea para casa
 

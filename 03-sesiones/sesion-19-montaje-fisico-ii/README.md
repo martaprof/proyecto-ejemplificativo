@@ -42,7 +42,7 @@ Realizar pruebas parciales de cada sensor y documentar los resultados obtenidos.
 ## Evidencias
 
 - Tabla de pruebas parciales.
-- Fotografías del montaje.
+- Capturas de simulación o tabla de comprobación de subsistemas.
 - Registro de errores corregidos.
 
 ## Explicación para el alumnado
@@ -101,7 +101,6 @@ Ejemplo de registro:
 ## Recursos
 
 - Plantilla de tabla de pruebas para sensores e indicadores: [`plantilla-pruebas-sensores-indicadores.md`](plantilla-pruebas-sensores-indicadores.md).
-- Fotografías del montaje físico real durante las pruebas parciales pendientes.
 - Código de referencia para probar lecturas de sensores: [`../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino`](../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino).
 - Códigos mínimos específicos para probar LDR, TMP36, potenciómetro, LED, zumbador y servomotor por separado: [`../../07-recursos-tecnicos/codigo/pruebas/`](../../07-recursos-tecnicos/codigo/pruebas/).
 

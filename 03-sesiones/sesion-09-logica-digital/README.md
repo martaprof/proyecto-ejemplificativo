@@ -104,7 +104,10 @@ La tabla de verdad permite comprobar todas las combinaciones posibles antes de m
 
 - Puertas lógicas seleccionadas: 74HC08 para AND y 74HC32 para OR, alimentadas a 5 V.
 - Referencias técnicas: [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
-- #TODO Crear o enlazar simulación de Tinkercad de lógica digital que combine avisos de luz, temperatura y humedad mediante puertas AND/OR.
+- Simulación de Tinkercad con puerta AND 74HC08: [ejemplo 74HC08](https://www.tinkercad.com/things/6xM5R25zOTv-74hc08).
+![Captura de la simulación con puerta AND 74HC08](ejemplo_tinkercad_74hc08.png)
+- Simulación de Tinkercad con puerta OR 74HC32: [ejemplo 74HC32](https://www.tinkercad.com/things/dLnw5kxa0kO-74hc32).
+![Captura de la simulación con puerta OR 74HC32](ejemplo_tinkercad_74hc32.png)
 
 ## Tarea para casa
 

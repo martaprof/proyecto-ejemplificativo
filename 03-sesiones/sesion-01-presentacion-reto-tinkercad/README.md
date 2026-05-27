@@ -91,8 +91,8 @@ La sesión termina con una simulación guiada de un circuito sencillo con LED y 
   - [Etapa de alimentación propuesta](https://www.tinkercad.com/things/86WmB8kYQlm-etapa-alimentacion-propuesta?sharecode=afxcJYZ41KRPg-VGHuEB168YA-K5VH15ffmpeTkczFA)
   - [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg)
   - [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE)
-- #TODO Añadir en esta sesión una simulación básica de iniciación en Tinkercad con pila, interruptor, resistencia y LED.
-- #TODO Añadir captura de la primera simulación guiada.
+- Simulación básica de iniciación en Tinkercad: [pila, interruptor, resistencia y LED](https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320).
+![Captura de la simulación básica con pila, interruptor, resistencia y LED](ejemplo_tinkercad.png)
 - Esquema introductorio de un invernadero didáctico en esta sesión.
 
 ## Esquema del contexto del invernadero

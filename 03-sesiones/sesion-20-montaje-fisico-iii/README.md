@@ -46,7 +46,7 @@ Completar una matriz de validación con casos de prueba y resultado esperado.
 - Prototipo integrado.
 - Código final.
 - Matriz de validación.
-- Capturas, fotografías o vídeo corto del funcionamiento.
+- Capturas de simulación o tabla de validación del funcionamiento previsto.
 
 ## Explicación para el alumnado
 
@@ -72,7 +72,7 @@ El ajuste de umbrales se realiza a partir de los resultados. Si un aviso se acti
 
 La comprobación de avisos y actuación debe hacerse de forma visible. El equipo debe confirmar que cada LED corresponde a la variable correcta, que el zumbador no se activa en situaciones normales y que el servo responde de forma coherente si está integrado. Si una salida no corresponde a la variable esperada, se revisan pines y código.
 
-A continuación se preparan evidencias para la presentación. El alumnado debe guardar capturas, fotografías o una tabla de validación. No basta con que el sistema funcione durante la clase; debe quedar evidencia que pueda revisarse después.
+A continuación se preparan evidencias para la presentación. El alumnado debe guardar capturas de simulación o una tabla de validación. No basta con afirmar que el sistema funciona; debe quedar evidencia documental que pueda revisarse después.
 
 La sesión termina con la matriz de validación. Cada fila debe contener escenario, acción realizada, resultado esperado, resultado observado y decisión final. Esta matriz será una de las evidencias más importantes del proyecto porque demuestra si el prototipo cumple su función.
 
@@ -82,9 +82,9 @@ Una prueba de validación podría documentarse así:
 
 | Escenario | Acción realizada | Resultado esperado | Resultado observado |
 | --- | --- | --- | --- |
-| Luz baja | Se tapa la LDR | Se enciende LED de luz | Pendiente de registrar durante la validación |
-| Temperatura alta | Se simula valor alto | Se activa aviso | Pendiente de registrar durante la validación |
-| Humedad baja | Se gira el potenciómetro | Se activa aviso | Pendiente de registrar durante la validación |
+| Luz baja | Se tapa la LDR o se modifica la simulación | Se enciende LED de luz | Resultado a registrar si se valida en Tinkercad |
+| Temperatura alta | Se simula valor alto | Se activa aviso | Resultado a registrar si se valida en Tinkercad |
+| Humedad baja | Se gira el potenciómetro | Se activa aviso | Resultado a registrar si se valida en Tinkercad |
 
 ## Mini-ejercicios
 
@@ -97,8 +97,6 @@ Una prueba de validación podría documentarse así:
 
 - Códigos de referencia en [`../../07-recursos-tecnicos/codigo/`](../../07-recursos-tecnicos/codigo/).
 - Código final integrado propuesto: [`../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino`](../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino).
-- #TODO Validar el código integrado en Tinkercad si se combinan medición, avisos y servomotor.
-- Vídeo o fotografías del prototipo validado pendientes, mostrando al menos tres escenarios: luz baja, temperatura alta y humedad simulada fuera de rango.
 - Matriz de validación definitiva: [`matriz-validacion.md`](matriz-validacion.md).
 
 ## Tarea para casa

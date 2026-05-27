@@ -94,7 +94,8 @@ Si el circuito está configurado para activar la salida cuando la tensión del s
 
 - Comparador seleccionado: LM339, con resistencia pull-up recomendada de 10 kΩ en la salida.
 - Referencia técnica: [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
-- #TODO Crear o enlazar simulación de Tinkercad de comparador con LM339 usando LDR o TMP36 como señal de entrada.
+- Simulación de Tinkercad de comparador con LM339 usando LDR como señal de entrada: [LM339 con LDR](https://www.tinkercad.com/things/bYwgD6IgaIH-lm339-ldr).
+![Captura de la simulación del comparador LM339 con LDR](ejemplo_tinkercad_lm393.png)
 - Distribución de pines del LM339 en encapsulado DIP-14 recogida en la tabla siguiente.
 
 | Pin | Función |

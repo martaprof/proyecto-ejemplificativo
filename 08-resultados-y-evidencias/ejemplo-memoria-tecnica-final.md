@@ -30,9 +30,9 @@ Se ha empleado como base el archivo `sistema-medicion-invernadero.ino`. Para la 
 
 | Escenario | Resultado esperado | Resultado obtenido |
 | --- | --- | --- |
-| Luz baja | LED de luz activo | Pendiente de completar. |
-| Temperatura alta | LED de temperatura activo | Pendiente de completar. |
-| Humedad fuera de rango | LED de humedad activo | Pendiente de completar. |
+| Luz baja | LED de luz activo | Resultado a registrar si se valida en Tinkercad. |
+| Temperatura alta | LED de temperatura activo | Resultado a registrar si se valida en Tinkercad. |
+| Humedad fuera de rango | LED de humedad activo | Resultado a registrar si se valida en Tinkercad. |
 
 ## 6. Errores encontrados
 

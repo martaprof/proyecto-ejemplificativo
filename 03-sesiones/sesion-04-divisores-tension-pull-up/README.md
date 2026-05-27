@@ -97,8 +97,10 @@ Arduino convertirá esa tensión en un valor entre 0 y 1023. Aproximadamente, 2,
 ## Recursos
 
 - Valores seleccionados para divisores: LDR GL5528, potenciómetro lineal de 10 kΩ y resistencias fijas de 10 kΩ. Más detalle en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
-- #TODO Crear o enlazar simulación de Tinkercad del divisor de tensión con LDR.
-- #TODO Crear o enlazar simulación de Tinkercad del potenciómetro usado como humedad simulada.
+- Simulación de Tinkercad del divisor de tensión con LDR: [ejemplo fotorresistencia](https://www.tinkercad.com/things/35IXq2zrHcm-ejemplo-fotoresistencia?sharecode=B0rxNFmXerjlVBuSw-MZM-MKR6paAd00jpHkw4XpIts).
+![Captura de la simulación del divisor de tensión con LDR](ejemplo_tinkercad_ldr.png)
+- Simulación de Tinkercad del potenciómetro usado como humedad simulada: [ejemplo potenciómetro](https://www.tinkercad.com/things/3nQT2ugQLCM-ejemplo-potenciometro?sharecode=xn7irmWocY7w9nVDOcBkHwy8wWHF_bX8DyxS5Yb4Z7s).
+![Captura de la simulación del potenciómetro como entrada analógica](ejemplo_tinkercad_potenciometro.png)
 
 ## Tarea para casa
 

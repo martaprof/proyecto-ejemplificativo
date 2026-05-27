@@ -98,7 +98,6 @@ Para analizar un componente, se puede usar esta secuencia:
 
 - Selección de modelos, hojas de características y referencias de inventario en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
 - Lista de materiales por equipo en [`../../07-recursos-tecnicos/lista-materiales-por-equipo.md`](../../07-recursos-tecnicos/lista-materiales-por-equipo.md).
-- Fotografías propias de los componentes disponibles en el aula pendientes: placa, protoboard, sensores, actuadores y componentes integrados.
 
 ## Tarea para casa
 

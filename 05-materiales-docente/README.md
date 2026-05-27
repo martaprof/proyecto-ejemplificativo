@@ -39,8 +39,3 @@ El proyecto debe plantearse como un reto abierto, pero con andamiaje suficiente 
 - Revisar primero el esquema antes de permitir el montaje físico.
 - Pedir que cada equipo documente errores y soluciones.
 - Introducir roles: coordinación, montaje, programación, documentación y pruebas.
-
-## Pendientes
-
-- Solucionarios y ejemplos resueltos de las sesiones 03-10: [`solucionarios-sesiones-03-10.md`](solucionarios-sesiones-03-10.md).
-- Orientaciones de evaluación por bloques: [`orientaciones-evaluacion-bloques.md`](orientaciones-evaluacion-bloques.md).

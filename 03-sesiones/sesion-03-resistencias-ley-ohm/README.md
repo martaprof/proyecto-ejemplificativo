@@ -77,7 +77,7 @@ La potencia eléctrica se tratará de forma básica, conectada con la seguridad.
 
 El cálculo de la resistencia limitadora para LED será la aplicación central. Cada equipo calculará el valor necesario para un LED alimentado a 5 V, considerando una tensión directa aproximada y una corriente recomendada. Después se comparará el resultado con valores comerciales, especialmente 220 Ω y 330 Ω. El alumnado debe justificar cuál elegiría y por qué.
 
-La relación entre cálculo y montaje real se trabajará mediante simulación. Si se dispone de Tinkercad, se probará el LED con dos resistencias diferentes para observar el cambio de brillo y corriente. Si no se realiza en la sesión, quedará como simulación pendiente. Lo importante es que el cálculo se conecte con una decisión técnica real.
+La relación entre cálculo y montaje real se trabajará mediante simulación. En Tinkercad se probará el LED con diferentes valores de resistencia para observar el cambio de brillo y corriente. Lo importante es que el cálculo se conecte con una decisión técnica real.
 
 La sesión finaliza registrando los resultados en la memoria o cuaderno técnico. Cada equipo debe escribir la fórmula utilizada, los datos considerados, el cálculo y el valor comercial seleccionado. Esta forma de documentar será la misma que se espera en decisiones posteriores del proyecto.
 
@@ -103,8 +103,9 @@ Como 300 ohmios no siempre es un valor disponible, se puede escoger un valor com
 ## Recursos
 
 - Valores de referencia para LED de 5 mm: rojo 2,0 V, amarillo 2,1 V, verde 2,2 V, corriente de trabajo 10 mA y resistencia recomendada de 330 Ω. Más detalle en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
-- #TODO Crear o enlazar simulación de Tinkercad con LED y resistencia, probando al menos dos valores de resistencia.
+- Simulación de Tinkercad con LED y resistencia alimentado desde Arduino: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
 
+![Captura de la simulación de LED con resistencia y Arduino](ejemplo_tinkercad_led.png)
 ## Tarea para casa
 
 Resolver ejercicios de dimensionado de resistencias para diferentes tensiones de alimentación y corrientes de LED.

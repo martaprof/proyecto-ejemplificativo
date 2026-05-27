@@ -35,6 +35,17 @@ Se han incorporado al repositorio los siguientes recursos procedentes del diseñ
 - [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg)
 - [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE)
 
+### Simulaciones parciales de apoyo
+
+- [Pila, interruptor, resistencia y LED](https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320)
+- [Arduino con parpadeo de LED](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw)
+- [Fotorresistencia LDR](https://www.tinkercad.com/things/35IXq2zrHcm-ejemplo-fotoresistencia?sharecode=B0rxNFmXerjlVBuSw-MZM-MKR6paAd00jpHkw4XpIts)
+- [Potenciómetro como entrada analógica](https://www.tinkercad.com/things/3nQT2ugQLCM-ejemplo-potenciometro?sharecode=xn7irmWocY7w9nVDOcBkHwy8wWHF_bX8DyxS5Yb4Z7s)
+- [Motor CC con Arduino y transistor 2N2222A](https://www.tinkercad.com/things/cMGKJwXmMno-motor-cc-con-arduino)
+- [Comparador LM339 con LDR](https://www.tinkercad.com/things/bYwgD6IgaIH-lm339-ldr)
+- [Puerta AND 74HC08](https://www.tinkercad.com/things/6xM5R25zOTv-74hc08)
+- [Puerta OR 74HC32](https://www.tinkercad.com/things/dLnw5kxa0kO-74hc32)
+
 ## Componentes previstos
 
 | Categoría | Elementos |
@@ -124,10 +135,3 @@ flowchart TB
 - Evitar cortocircuitos en protoboard.
 - Mantener ordenado el puesto de trabajo.
 - Manipular componentes y cables con el circuito desconectado.
-
-## Pendientes
-
-- Selección de componentes, valores y referencias técnicas en [`componentes-y-valores.md`](componentes-y-valores.md).
-- Código Arduino de referencia en [`codigo/`](codigo/).
-- Código Arduino integrado y pruebas mínimas por componente en [`codigo/pruebas/`](codigo/pruebas/).
-- Enlaces a simulaciones de Tinkercad.

@@ -50,10 +50,3 @@ Se evaluarán:
 | Desarrollo | Ejercicios, simulaciones, código, colaboración y revisión. |
 | Integración | Montaje, funcionamiento y resolución de problemas. |
 | Cierre | Producto final, memoria, exposición y reflexión. |
-
-## Pendientes
-
-- Rúbrica general del proyecto: [`rubrica-general-proyecto.md`](rubrica-general-proyecto.md).
-- Lista de cotejo de seguridad y montaje: [`lista-cotejo-seguridad-montaje.md`](lista-cotejo-seguridad-montaje.md).
-- Instrumentos de autoevaluación y coevaluación: [`autoevaluacion-individual.md`](autoevaluacion-individual.md) y [`coevaluacion-equipo.md`](coevaluacion-equipo.md).
-- Rúbrica de exposición final: [`rubrica-exposicion.md`](rubrica-exposicion.md).

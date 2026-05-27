@@ -97,7 +97,7 @@ Si cambia de forma inversa, puede corregirse en el circuito o tenerse en cuenta 
 
 - Plantilla de registro de errores: [`plantilla-registro-errores.md`](plantilla-registro-errores.md).
 - Simulación general del sistema de medición y avisos: [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg).
-- #TODO Añadir una simulación específica de Tinkercad con comparador analógico y LDR o TMP36 si se quiere aislar este bloque.
+- Simulación específica de Tinkercad para aislar el bloque de comparación analógica: [LM339 con LDR](https://www.tinkercad.com/things/bYwgD6IgaIH-lm339-ldr).
 
 ## Tarea para casa
 

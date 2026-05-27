@@ -113,7 +113,8 @@ Si cambiamos `delay(1000)` por `delay(200)`, el parpadeo será más rápido. Est
 ## Recursos
 
 - Código Arduino de referencia: [`../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino`](../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino).
-- #TODO Crear o enlazar simulación de primer programa Arduino con parpadeo de LED.
+- Simulación de primer programa Arduino con parpadeo de LED: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
+![Captura de la simulación de primer programa Arduino con LED parpadeante](ejemplo_tinkercad_parpadeo.png)
 - Enlace oficial de descarga de Arduino IDE: [Arduino Software](https://www.arduino.cc/en/software).
 
 ## Tarea para casa

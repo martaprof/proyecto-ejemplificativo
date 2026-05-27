@@ -1,13 +1,12 @@
 # Resultados y evidencias
 
-Esta carpeta recogerá ejemplos de productos finales, evidencias del proceso, capturas de simulaciones, fotografías de montajes o resultados esperados.
+Esta carpeta recogerá ejemplos de productos finales, evidencias del proceso, capturas de simulaciones, esquemas, tablas de validación o resultados esperados.
 
 ## Evidencias previstas
 
 - Capturas de simulaciones en Tinkercad.
 - Esquemas eléctricos.
 - Código Arduino.
-- Fotografías del montaje físico, si se realiza.
 - Tabla de pruebas del sistema.
 - Comparación entre comportamiento esperado y observado.
 - Presentaciones finales del alumnado.
@@ -17,6 +16,17 @@ Esta carpeta recogerá ejemplos de productos finales, evidencias del proceso, ca
 
 - Código Arduino de referencia en [`../07-recursos-tecnicos/codigo/`](../07-recursos-tecnicos/codigo/).
 - Esquemáticos de referencia en [`../07-recursos-tecnicos/esquematicos/`](../07-recursos-tecnicos/esquematicos/).
+- Captura de la simulación de la etapa de alimentación:
+
+![Captura de la simulación de la etapa de alimentación](../etapa_alimentacion.png)
+
+- Captura de la simulación del sistema de medición y avisos:
+
+![Captura de la simulación del sistema de medición y avisos](../etapa_sistema_alarma.png)
+
+- Captura de la simulación de seguimiento solar con servomotor:
+
+![Captura de la simulación de seguimiento solar con servomotor](../etapa_seguimiento_solar.png)
 
 ## Resultado esperado
 
@@ -37,10 +47,3 @@ Como ampliación, el sistema podría:
 - registrar valores en una tabla;
 - incorporar pantalla LCD;
 - plantear comunicación remota o IoT como mejora futura.
-
-## Pendientes
-
-- Capturas pendientes de las tres simulaciones principales: alimentación, medición/avisos y seguimiento solar.
-- Fotografías pendientes del montaje físico inicial, pruebas parciales y prototipo final.
-- Ejemplo de memoria técnica final: [`ejemplo-memoria-tecnica-final.md`](ejemplo-memoria-tecnica-final.md).
-- Vídeo o enlace de demostración final del prototipo pendiente, si se genera.

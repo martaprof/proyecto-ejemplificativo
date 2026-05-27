@@ -103,7 +103,6 @@ Antes de probar el programa integrado, conviene comprobar que cada componente fu
 - Código de referencia del control con servomotor: [`../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino`](../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino).
 - Programa integrado propuesto: [`../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino`](../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino).
 - Mapa de pines de la propuesta integrada: el servo se mantiene en `9` y el aviso de temperatura se traslada al pin `8`.
-- #TODO Validar el programa integrado en Tinkercad si se incorpora la ampliación con servomotor.
 - Plantilla de tabla de pruebas para el subsistema automático: [`plantilla-pruebas-control-automatico.md`](plantilla-pruebas-control-automatico.md).
 
 ## Nota técnica

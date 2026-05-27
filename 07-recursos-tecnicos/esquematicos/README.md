@@ -20,6 +20,4 @@ Estos documentos pueden emplearse como apoyo para:
 - comparar el diseño inicial con el montaje final;
 - introducir la lectura de esquemas eléctricos en el aula.
 
-## Pendientes
-
-Pendiente de exportar o capturar como imagen los esquemáticos de alimentación, medición/avisos y seguimiento solar para que puedan verse directamente en GitHub sin abrir los PDF.
+Los esquemáticos se mantienen en formato PDF como evidencia técnica del proyecto.

@@ -30,9 +30,3 @@ Cada equipo deberá entregar:
 - Guion de programación en Arduino.
 - Plantilla de memoria técnica.
 - Plantilla de autoevaluación y coevaluación.
-
-## Pendientes
-
-- Plantilla de memoria técnica: [`plantilla-memoria-tecnica.md`](plantilla-memoria-tecnica.md).
-- Plantilla de planificación del equipo: [`plantilla-planificacion-equipo.md`](plantilla-planificacion-equipo.md).
-- Guion de simulación en Tinkercad: [`guion-simulacion-tinkercad.md`](guion-simulacion-tinkercad.md).

@@ -21,8 +21,16 @@ El producto final esperado será un prototipo funcional, simulado o físico, de 
 ## Simulaciones de referencia
 
 - [Etapa de alimentación propuesta](https://www.tinkercad.com/things/86WmB8kYQlm-etapa-alimentacion-propuesta?sharecode=afxcJYZ41KRPg-VGHuEB168YA-K5VH15ffmpeTkczFA)
+
+![Captura de la simulación de la etapa de alimentación](etapa_alimentacion.png)
+
 - [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg)
+
+![Captura de la simulación del sistema de medición y avisos](etapa_sistema_alarma.png)
+
 - [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE)
+
+![Captura de la simulación de seguimiento solar con servomotor](etapa_seguimiento_solar.png)
 
 ## Esquema general del sistema
 
@@ -49,14 +57,6 @@ flowchart LR
 - `07-recursos-tecnicos/`: indicaciones para Arduino IDE, Tinkercad y otros recursos técnicos.
 - `08-resultados-y-evidencias/`: productos finales, ejemplos, capturas o evidencias del proceso.
 - `09-mejoras-y-reutilizacion/`: propuestas de mejora, adaptaciones y posibilidades de reutilización.
-
-## Pendientes
-
-- Enlaces a las simulaciones de Tinkercad de referencia.
-- Código Arduino de referencia en [`07-recursos-tecnicos/codigo/`](07-recursos-tecnicos/codigo/).
-- Imagen general del prototipo o captura compuesta con las tres simulaciones principales de Tinkercad pendiente.
-- Esquemáticos de referencia en [`07-recursos-tecnicos/esquematicos/`](07-recursos-tecnicos/esquematicos/).
-- Selección de componentes, valores recomendados, referencias técnicas e inventario orientativo: [`07-recursos-tecnicos/componentes-y-valores.md`](07-recursos-tecnicos/componentes-y-valores.md).
 
 ## Estado
 

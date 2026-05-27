@@ -90,7 +90,3 @@ flowchart LR
 ## Adaptación al proyecto del invernadero
 
 Estos códigos proceden de una estación ambiental y una etapa de seguimiento solar. En este proyecto se reutilizan como base para un sistema de medición de condiciones atmosféricas en un invernadero. Por tanto, pueden requerir ajustes en nombres de variables, umbrales, sensores reales y comportamiento de los avisos.
-
-## Pendiente de validación externa
-
-#TODO Validar en Tinkercad `sistema-medicion-invernadero.ino`, `control-servomotor-seguimiento.ino` y `sistema-invernadero-integrado.ino`.

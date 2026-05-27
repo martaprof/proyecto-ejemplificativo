@@ -64,9 +64,3 @@ El proyecto puede desarrollarse en tres niveles:
 - [Etapa de alimentación propuesta](https://www.tinkercad.com/things/86WmB8kYQlm-etapa-alimentacion-propuesta?sharecode=afxcJYZ41KRPg-VGHuEB168YA-K5VH15ffmpeTkczFA)
 - [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg)
 - [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE)
-
-## Pendientes
-
-- Enlaces a las simulaciones de referencia.
-- Rúbrica general del proyecto: [`../06-evaluacion/rubrica-general-proyecto.md`](../06-evaluacion/rubrica-general-proyecto.md).
-- Lista de materiales por equipo: [`../07-recursos-tecnicos/lista-materiales-por-equipo.md`](../07-recursos-tecnicos/lista-materiales-por-equipo.md).

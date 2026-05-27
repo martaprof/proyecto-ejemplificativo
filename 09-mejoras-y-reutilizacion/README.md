@@ -62,7 +62,3 @@ El proyecto puede conectarse con:
 - Ciencias Ambientales, estudiando sostenibilidad y eficiencia;
 - Matemáticas, trabajando tablas, gráficas y ajuste de umbrales;
 - Digitalización, incorporando registro de datos o visualización remota.
-
-## Pendientes
-
-- Pendiente de completar tras la primera implementación real en aula: tiempos, dificultades, ajustes de umbrales y mejoras de materiales.
