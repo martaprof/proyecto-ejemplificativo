@@ -58,6 +58,10 @@ flowchart LR
 - `08-resultados-y-evidencias/`: productos finales, ejemplos, capturas o evidencias del proceso.
 - `09-mejoras-y-reutilizacion/`: propuestas de mejora, adaptaciones y posibilidades de reutilización.
 
+## Licencia
+
+La licencia Creative Commons elegida se recoge en el archivo [`LICENSE.md`](LICENSE.md). Este proyecto se publica bajo **CC BY-SA 4.0**, permitiendo su reutilización y adaptación con atribución y manteniendo la misma licencia en obras derivadas.
+
 ## Estado
 
 Primera versión de diseño en construcción.

@@ -33,6 +33,20 @@ Otro docente puede reutilizar el proyecto modificando:
 - formato del producto final;
 - criterios de evaluación.
 
+## Forks y propuestas de mejora
+
+Este repositorio está pensado para que otros docentes puedan reutilizarlo y proponer mejoras siguiendo una dinámica similar a la del software abierto.
+
+Para adaptar el proyecto:
+
+1. Crear un **fork** del repositorio desde GitHub.
+2. Modificar en el fork los apartados necesarios: nivel educativo, sesiones, materiales, evaluación o recursos técnicos.
+3. Mantener la estructura de carpetas para facilitar la comparación entre versiones.
+4. Documentar los cambios realizados en el README correspondiente.
+5. Si la mejora puede ser útil para otros docentes, abrir una **pull request** hacia el repositorio original explicando qué se ha cambiado y por qué.
+
+También pueden proponerse mejoras mediante **issues**, por ejemplo para indicar errores, sugerir nuevas sesiones, plantear variantes con otros componentes o compartir enlaces a simulaciones alternativas.
+
 ## Variante simplificada solo con Tinkercad
 
 Para centros sin material físico, el proyecto puede realizarse íntegramente en Tinkercad:
