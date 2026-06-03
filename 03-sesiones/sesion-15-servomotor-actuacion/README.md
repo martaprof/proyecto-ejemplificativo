@@ -115,3 +115,15 @@ Este programa mueve el servo a tres posiciones. Sirve para comprobar conexión, 
 ## Tarea para casa
 
 Diseñar una tabla que relacione condición detectada, ángulo del servo y acción representada.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe controlar un servomotor SG90 con la librería `Servo.h`, probar posiciones angulares y explicar qué precauciones de alimentación y movimiento deben tenerse en cuenta. El servo se interpreta como actuador dentro del sistema automático del invernadero.
+
+Materiales de apoyo:
+
+- Plantilla de servomotor: [`plantilla-servomotor.md`](plantilla-servomotor.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Código básico: [`../../07-recursos-tecnicos/codigo/servomotor.ino`](../../07-recursos-tecnicos/codigo/servomotor.ino).
+- Código básico comentado: [`../../07-recursos-tecnicos/codigo/servomotor_comentado.ino`](../../07-recursos-tecnicos/codigo/servomotor_comentado.ino).
+- Esquemático PDF: [`../../07-recursos-tecnicos/esquematicos/control-servomotor-seguimiento.pdf`](../../07-recursos-tecnicos/esquematicos/control-servomotor-seguimiento.pdf).

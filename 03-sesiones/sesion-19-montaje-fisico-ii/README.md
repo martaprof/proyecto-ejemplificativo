@@ -1,25 +1,25 @@
-# Sesión 19. Montaje físico II: cableado, pruebas parciales y depuración
+# Sesión 19. Pruebas parciales y depuración por subsistemas
 
 ## Propósito
 
-Completar el cableado de sensores e indicadores y realizar pruebas parciales antes de integrar todo el sistema.
+Realizar pruebas parciales de sensores, indicadores y código antes de validar el sistema completo.
 
 ## Pregunta de trabajo
 
-> ¿Cómo localizamos un fallo cuando el circuito físico no se comporta como la simulación?
+> ¿Cómo localizamos un fallo cuando un subsistema no se comporta como esperamos en la simulación o en una implementación futura?
 
 ## Contenidos
 
 - Verificación de conexiones.
 - Pruebas por subsistemas.
-- Uso básico del multímetro, si está disponible.
-- Depuración de código y montaje.
+- Uso básico del multímetro como referencia para una posible implementación física.
+- Depuración de código y simulación.
 - Registro de errores.
 
 ## Desarrollo de la sesión
 
-1. Revisión del montaje anterior.
-2. Conexión de sensores.
+1. Revisión de recursos y simulaciones de la sesión anterior.
+2. Prueba de sensores por separado.
 3. Prueba de entradas analógicas.
 4. Conexión de indicadores y zumbador.
 5. Registro de errores y soluciones.
@@ -37,7 +37,7 @@ flowchart TD
 
 ## Actividad del alumnado
 
-Realizar pruebas parciales de cada sensor y documentar los resultados obtenidos.
+Realizar pruebas parciales de cada subsistema y documentar los resultados obtenidos.
 
 ## Evidencias
 
@@ -47,25 +47,25 @@ Realizar pruebas parciales de cada sensor y documentar los resultados obtenidos.
 
 ## Explicación para el alumnado
 
-La verificación de conexiones consiste en comprobar que el montaje real coincide con el esquema. Hay que revisar alimentación, masa, orientación de componentes, continuidad de cables y posición de cada pin. Muchos fallos aparecen por un cable desplazado una fila en la protoboard.
+La verificación de conexiones consiste en comprobar que la simulación o propuesta técnica coincide con el esquema. Hay que revisar alimentación, masa, orientación de componentes y posición de cada pin. Muchos fallos aparecen por un cable desplazado una fila en la protoboard virtual o por una asignación de pines incoherente en el código.
 
 Las pruebas por subsistemas permiten reducir la complejidad. En lugar de probar todo el proyecto a la vez, se prueba primero la alimentación, después cada sensor, después cada salida y finalmente la integración. Si cada bloque funciona por separado, será más fácil localizar errores al unirlos.
 
-El multímetro, si está disponible, permite medir tensión, continuidad y, en algunos casos, resistencia. No hace falta usarlo para todo, pero es una herramienta muy útil para comprobar si llega alimentación a una parte del circuito o si una conexión está cortada.
+El multímetro, si se llevara el proyecto a una implementación física, permitiría medir tensión, continuidad y, en algunos casos, resistencia. En esta propuesta puede estudiarse como herramienta de diagnóstico, aunque la validación principal se realizará mediante simulación, monitor serie y revisión de esquemas.
 
 Depurar significa encontrar y corregir errores. En electrónica y programación, depurar es una parte normal del trabajo. Un circuito que no funciona a la primera no es un fracaso; es una oportunidad para aplicar un método. La clave es no cambiar muchas cosas a la vez. Si modificamos varios cables y el código al mismo tiempo, será difícil saber qué ha solucionado o provocado el problema.
 
-En el sistema del invernadero, cada sensor debe probarse con cambios reales o simulados. La LDR debe reaccionar a la luz, el TMP36 a la temperatura simulada o medida, y el potenciómetro debe cambiar su lectura al girarlo. Del mismo modo, los LED, el zumbador y el servo deben probarse con programas mínimos antes de integrarlos.
+En el sistema del invernadero, cada sensor debe probarse con cambios simulados. La LDR debe reaccionar a la luz, el TMP36 a la temperatura simulada y el potenciómetro debe cambiar su lectura al girarlo. Del mismo modo, los LED, el zumbador y el servo deben probarse con programas mínimos antes de integrarlos.
 
 El registro de errores documenta el proceso de depuración. Debe indicar qué síntoma se observó, qué causa se sospechó, qué prueba se realizó y qué solución se aplicó. Esto evita repetir errores y aporta evidencias para la evaluación del proceso.
 
 ## Desarrollo guiado de la sesión
 
-La sesión comienza con la verificación de conexiones. Cada equipo debe comparar el montaje con el esquema y revisar uno por uno los cables de alimentación, entradas analógicas y salidas digitales. Esta revisión se hace antes de modificar el código, porque muchos errores de software aparentes son en realidad errores de cableado.
+La sesión comienza con la verificación de conexiones en la simulación y en los esquemas. Cada equipo debe comparar el circuito con el esquema y revisar uno por uno los cables de alimentación, entradas analógicas y salidas digitales. Esta revisión se hace antes de modificar el código, porque muchos errores de software aparentes son en realidad errores de conexión.
 
 Después se realizan pruebas por subsistemas. Primero se prueba un LED, luego un sensor, después el zumbador y, si procede, el servomotor. Cada prueba debe usar el código más simple posible. El objetivo es comprobar cada parte de manera aislada antes de integrarla.
 
-Si hay multímetro disponible, se usará de forma básica. El alumnado puede medir si hay 5 V entre la línea positiva y GND, comprobar continuidad en una conexión o verificar la tensión de salida de un divisor. No se busca una práctica avanzada de instrumentación, sino usar el multímetro como herramienta de diagnóstico.
+Si se analiza una implementación física opcional, se explicará el uso básico del multímetro. El alumnado puede indicar dónde mediría 5 V, cómo comprobaría continuidad o cómo verificaría la tensión de salida de un divisor. No se busca una práctica avanzada de instrumentación, sino comprender el método de diagnóstico.
 
 La depuración de código y montaje se hará siguiendo una regla: cambiar una sola cosa cada vez. Si se modifica el cableado, no se modifica a la vez el código. Si se cambia un umbral, se registra. Este método permite saber qué acción ha producido el cambio observado.
 
@@ -106,4 +106,15 @@ Ejemplo de registro:
 
 ## Tarea para casa
 
-Actualizar la memoria técnica con los problemas encontrados y las soluciones aplicadas.
+Actualizar la memoria técnica con los problemas encontrados en las pruebas simuladas y las soluciones aplicadas.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe aplicar un método de depuración por subsistemas, usar programas mínimos para localizar errores y registrar pruebas de forma trazable. La sesión prepara la validación final sin depender de un montaje físico.
+
+Materiales de apoyo:
+
+- Plantilla de pruebas por subsistemas: [`plantilla-pruebas-subsistemas.md`](plantilla-pruebas-subsistemas.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Plantilla de pruebas de sensores e indicadores: [`plantilla-pruebas-sensores-indicadores.md`](plantilla-pruebas-sensores-indicadores.md).
+- Códigos mínimos de prueba: [`../../07-recursos-tecnicos/codigo/pruebas/`](../../07-recursos-tecnicos/codigo/pruebas/).

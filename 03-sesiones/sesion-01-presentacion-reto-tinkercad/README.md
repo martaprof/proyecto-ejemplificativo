@@ -114,3 +114,13 @@ flowchart TB
 ## Tarea para casa
 
 Buscar ejemplos reales de sistemas de monitorización de invernaderos y anotar qué variables miden, qué sensores emplean y qué decisiones permiten tomar.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe comprender la pregunta guía del proyecto, identificar variables atmosféricas relevantes para un invernadero y justificar una primera relación entre variable, sensor y respuesta del sistema. También debe realizar una simulación básica en Tinkercad para entender que un circuito puede probarse antes de integrarse en una propuesta más compleja.
+
+Materiales de apoyo:
+
+- Plantilla de lluvia de ideas: [`plantilla-brainstorming.md`](plantilla-brainstorming.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Captura de la simulación inicial: [`ejemplo_tinkercad.png`](ejemplo_tinkercad.png).

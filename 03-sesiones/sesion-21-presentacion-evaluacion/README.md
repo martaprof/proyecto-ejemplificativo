@@ -106,3 +106,16 @@ Una estructura posible para la exposición es:
 ## Cierre del proyecto
 
 El alumnado deberá explicar qué decisiones técnicas ha tomado, qué errores ha encontrado, cómo los ha resuelto y qué mejoras introduciría en una versión futura del sistema.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe comunicar públicamente el proyecto, explicar las decisiones técnicas tomadas, presentar evidencias de validación y reflexionar sobre el aprendizaje realizado. La memoria técnica y la presentación deben mostrar tanto el producto final como el proceso seguido.
+
+Materiales de apoyo:
+
+- Plantilla de memoria técnica final: [`plantilla-memoria-tecnica.md`](plantilla-memoria-tecnica.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Estructura modelo de presentación: [`estructura-presentacion.md`](estructura-presentacion.md).
+- Rúbrica final de exposición: [`../../06-evaluacion/rubrica-exposicion.md`](../../06-evaluacion/rubrica-exposicion.md).
+- Autoevaluación individual: [`../../06-evaluacion/autoevaluacion-individual.md`](../../06-evaluacion/autoevaluacion-individual.md).
+- Coevaluación del equipo: [`../../06-evaluacion/coevaluacion-equipo.md`](../../06-evaluacion/coevaluacion-equipo.md).

@@ -131,3 +131,15 @@ La primera línea transforma la lectura analógica en tensión, suponiendo una r
 ## Tarea para casa
 
 Proponer valores umbral para luz, temperatura y humedad simulada, justificando cada decisión.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe leer entradas analógicas con `analogRead()`, interpretar el rango 0-1023 y convertir lecturas en datos útiles para el proyecto. La atención se centra en el monitor serie como herramienta de observación, calibración y depuración.
+
+Materiales de apoyo:
+
+- Plantilla de programación de sensores: [`plantilla-programacion-sensores.md`](plantilla-programacion-sensores.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Código de referencia: [`../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino`](../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino).
+- Códigos mínimos de prueba: [`../../07-recursos-tecnicos/codigo/pruebas/`](../../07-recursos-tecnicos/codigo/pruebas/).
+- Esquemático PDF: [`../../07-recursos-tecnicos/esquematicos/sistema-medicion-invernadero.pdf`](../../07-recursos-tecnicos/esquematicos/sistema-medicion-invernadero.pdf).

@@ -16,6 +16,25 @@ Aplicar la ley de Ohm al dimensionado de resistencias necesarias para proteger L
 - Resistencia limitadora para LED.
 - Relación entre cálculo y montaje real.
 
+## Objetivos didácticos
+
+- Comprender la relación entre tensión, corriente y resistencia.
+- Aplicar la ley de Ohm para calcular resistencias limitadoras.
+- Seleccionar valores comerciales adecuados para proteger LED.
+- Comprobar mediante simulación cómo cambia el comportamiento del LED al modificar la resistencia.
+- Justificar por escrito las decisiones de cálculo y diseño.
+
+## Materiales necesarios
+
+- Ordenador con acceso a Tinkercad.
+- Simulación de LED con resistencia o circuito equivalente.
+- Placa Arduino o fuente de 5 V simulada.
+- LED de 5 mm.
+- Resistencias de 220 Ω, 330 Ω y 1 kΩ.
+- Calculadora o cuaderno de trabajo.
+- Plantilla de cálculos: [`plantilla-calculos.md`](plantilla-calculos.md).
+- Lista de cotejo: [`lista-cotejo.md`](lista-cotejo.md).
+
 ## Desarrollo de la sesión
 
 1. Repaso de magnitudes eléctricas.
@@ -23,6 +42,18 @@ Aplicar la ley de Ohm al dimensionado de resistencias necesarias para proteger L
 3. Análisis de errores frecuentes.
 4. Simulación en Tinkercad de LED con diferentes resistencias.
 5. Aplicación al sistema de indicadores del invernadero.
+
+## Pasos de cálculo y simulación
+
+1. Identificar la tensión de alimentación del circuito.
+2. Anotar la caída de tensión aproximada del LED.
+3. Elegir la corriente deseada y convertirla a amperios.
+4. Aplicar la fórmula `R = (V_alimentación - V_LED) / I`.
+5. Comparar el resultado con valores comerciales disponibles.
+6. Elegir un valor seguro y justificar la decisión.
+7. Montar o abrir la simulación en Tinkercad.
+8. Probar al menos dos resistencias y observar el brillo del LED.
+9. Registrar resultados, captura y conclusiones en la plantilla.
 
 ## Esquema del circuito
 
@@ -42,6 +73,8 @@ Calcular resistencias adecuadas para distintos LED del sistema: estado correcto,
 - Ejercicios de cálculo.
 - Captura de simulación con LED.
 - Explicación de la función de la resistencia.
+- Plantilla de cálculos completada.
+- Lista de cotejo revisada.
 
 ## Explicación para el alumnado
 
@@ -104,8 +137,19 @@ Como 300 ohmios no siempre es un valor disponible, se puede escoger un valor com
 
 - Valores de referencia para LED de 5 mm: rojo 2,0 V, amarillo 2,1 V, verde 2,2 V, corriente de trabajo 10 mA y resistencia recomendada de 330 Ω. Más detalle en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
 - Simulación de Tinkercad con LED y resistencia alimentado desde Arduino: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
+- Plantilla de cálculos: [`plantilla-calculos.md`](plantilla-calculos.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Ejercicios adicionales: calcular resistencias para LED con alimentación de 3,3 V, 5 V y 9 V, usando corrientes de 5 mA, 10 mA y 15 mA.
 
 ![Captura de la simulación de LED con resistencia y Arduino](ejemplo_tinkercad_led.png)
+
+## Tareas y reflexión
+
+1. Completa la plantilla de cálculos para al menos dos LED o dos condiciones distintas.
+2. Explica qué error se produciría si no se resta la caída de tensión del LED.
+3. Compara 220 Ω y 330 Ω: ¿cuál protege más el LED y por qué?
+4. Escribe una breve reflexión sobre cómo el cálculo previo ayuda a evitar errores en el montaje o la simulación.
+
 ## Tarea para casa
 
 Resolver ejercicios de dimensionado de resistencias para diferentes tensiones de alimentación y corrientes de LED.

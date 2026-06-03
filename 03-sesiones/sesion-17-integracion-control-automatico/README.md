@@ -112,3 +112,15 @@ El código de medición original utiliza el pin digital `9` como salida de aviso
 ## Tarea para casa
 
 Actualizar la memoria técnica con el apartado de sistemas automáticos.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe integrar lecturas de sensores, avisos y control de servomotor en una propuesta de programa coherente. Se prestará especial atención a los conflictos de pines, a la estabilidad de los umbrales y a la depuración por partes antes de validar el sistema completo.
+
+Materiales de apoyo:
+
+- Plantilla de integración de control: [`plantilla-integracion-control.md`](plantilla-integracion-control.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Plantilla de pruebas de control automático: [`plantilla-pruebas-control-automatico.md`](plantilla-pruebas-control-automatico.md).
+- Código de integración del control del servomotor: [`../../07-recursos-tecnicos/codigo/integracion_control_servomotor.ino`](../../07-recursos-tecnicos/codigo/integracion_control_servomotor.ino).
+- Código comentado de integración del control: [`../../07-recursos-tecnicos/codigo/integracion_control_servomotor_comentado.ino`](../../07-recursos-tecnicos/codigo/integracion_control_servomotor_comentado.ino).

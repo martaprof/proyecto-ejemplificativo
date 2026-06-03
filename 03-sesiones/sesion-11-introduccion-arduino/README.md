@@ -16,6 +16,25 @@ Introducir el entorno Arduino y comprender la estructura básica de un programa.
 - Estructura `setup()` y `loop()`.
 - Primer programa con LED.
 
+## Objetivos didácticos
+
+- Identificar los pines principales de una placa Arduino o compatible.
+- Diferenciar entradas digitales, salidas digitales y entradas analógicas.
+- Comprender el rango de lectura analógica entre 0 y 1023.
+- Explicar la función de `setup()` y `loop()` en un programa Arduino.
+- Modificar un programa tipo Blink para cambiar pines y tiempos de parpadeo.
+- Documentar los cambios realizados y el comportamiento observado.
+
+## Materiales necesarios
+
+- Ordenador con Tinkercad o Arduino IDE.
+- Placa Arduino o simulación equivalente.
+- LED y resistencia limitadora.
+- Cableado o protoboard virtual.
+- Ejemplos de código [`../../07-recursos-tecnicos/codigo/blink.ino`](../../07-recursos-tecnicos/codigo/blink.ino) y [`../../07-recursos-tecnicos/codigo/blink_comentado.ino`](../../07-recursos-tecnicos/codigo/blink_comentado.ino).
+- Plantilla de programación: [`plantilla-programacion.md`](plantilla-programacion.md).
+- Lista de cotejo: [`lista-cotejo.md`](lista-cotejo.md).
+
 ## Desarrollo de la sesión
 
 1. Presentación de la placa y sus pines.
@@ -23,6 +42,18 @@ Introducir el entorno Arduino y comprender la estructura básica de un programa.
 3. Simulación de un LED controlado desde Arduino.
 4. Modificación de tiempos y salidas.
 5. Relación con los indicadores del sistema final.
+
+## Pasos guiados
+
+1. Abrir la simulación o el entorno Arduino IDE.
+2. Cargar un ejemplo tipo Blink.
+3. Identificar el pin utilizado por el LED, inicialmente el pin 13.
+4. Localizar las instrucciones `pinMode()`, `digitalWrite()` y `delay()`.
+5. Ejecutar la simulación y observar el parpadeo.
+6. Cambiar los valores de `delay()` para acelerar o ralentizar el parpadeo.
+7. Modificar el pin de salida y actualizar el circuito si es necesario.
+8. Añadir un segundo LED o iniciar una lectura analógica como ampliación.
+9. Registrar los cambios y observaciones en la plantilla de programación.
 
 ## Esquema básico
 
@@ -43,6 +74,8 @@ Crear y modificar un programa básico para encender y apagar un LED.
 - Código inicial.
 - Simulación funcionando.
 - Captura o enlace del circuito.
+- Plantilla de programación completada.
+- Lista de cotejo revisada.
 
 ## Explicación para el alumnado
 
@@ -113,9 +146,21 @@ Si cambiamos `delay(1000)` por `delay(200)`, el parpadeo será más rápido. Est
 ## Recursos
 
 - Código Arduino de referencia: [`../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino`](../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino).
+- Ejemplo básico Blink: [`../../07-recursos-tecnicos/codigo/blink.ino`](../../07-recursos-tecnicos/codigo/blink.ino).
+- Ejemplo Blink comentado: [`../../07-recursos-tecnicos/codigo/blink_comentado.ino`](../../07-recursos-tecnicos/codigo/blink_comentado.ino).
 - Simulación de primer programa Arduino con parpadeo de LED: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
 ![Captura de la simulación de primer programa Arduino con LED parpadeante](ejemplo_tinkercad_parpadeo.png)
 - Enlace oficial de descarga de Arduino IDE: [Arduino Software](https://www.arduino.cc/en/software).
+- Plantilla de programación: [`plantilla-programacion.md`](plantilla-programacion.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+
+## Tareas y reflexión
+
+1. Completa la plantilla de programación con el pin utilizado y los tiempos de parpadeo.
+2. Modifica el programa para usar otro pin digital y explica qué cambio has tenido que hacer en el circuito.
+3. Cambia `delay()` y describe cómo afecta al parpadeo.
+4. Explica con tus palabras la diferencia entre `setup()` y `loop()`.
+5. Indica cómo se relaciona este primer LED con los indicadores del sistema final del invernadero.
 
 ## Tarea para casa
 

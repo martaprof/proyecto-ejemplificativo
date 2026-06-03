@@ -96,3 +96,13 @@ Para comprobarlo, el equipo debe completar una tabla con 8 combinaciones, porque
 ## Tarea para casa
 
 Comparar la solución con puertas lógicas con la futura solución mediante Arduino: ventajas, limitaciones y facilidad de modificación.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe revisar una tabla de verdad, detectar discrepancias entre diseño y simulación, y documentar las correcciones realizadas. La revisión entre iguales se plantea como una forma de mejorar la precisión técnica y la claridad de la documentación.
+
+Materiales de apoyo:
+
+- Plantilla de depuración de lógica digital: [`plantilla-depuracion-logica.md`](plantilla-depuracion-logica.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Plantilla de tabla de verdad: [`plantilla-tabla-verdad.md`](plantilla-tabla-verdad.md).

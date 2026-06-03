@@ -124,3 +124,13 @@ flowchart LR
 ## Tarea para casa
 
 Buscar un ejemplo de sistema automático cotidiano y describir sus sensores, controlador y actuadores.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe explicar la estructura sensor-controlador-actuador, distinguir control abierto y control cerrado, y usar la idea de señal de error para justificar decisiones automáticas. Los ejemplos del invernadero pueden relacionarse con ventilación, riego, sombreado u orientación de paneles.
+
+Materiales de apoyo:
+
+- Plantilla de sistemas automáticos: [`plantilla-sistemas-automaticos.md`](plantilla-sistemas-automaticos.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Diagrama aplicado al invernadero incluido en este README.

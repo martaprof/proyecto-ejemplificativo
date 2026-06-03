@@ -98,3 +98,14 @@ Cuando el pin digital está en nivel alto, entra corriente por la base y el tran
 ## Tarea para casa
 
 Explicar por escrito por qué el transistor se comporta como un interruptor en este circuito.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe identificar base, colector y emisor, distinguir corte y saturación, y justificar por qué una salida digital de Arduino puede necesitar un transistor para controlar una carga. La actividad se centra en la protección del microcontrolador y en el dimensionado básico de la resistencia de base.
+
+Materiales de apoyo:
+
+- Plantilla de transistor como interruptor: [`plantilla-transistor.md`](plantilla-transistor.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Componentes y valores: [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
+- Simulación de referencia sobre conmutación con 2N2222A: [motor CC con Arduino](https://www.tinkercad.com/things/cMGKJwXmMno-motor-cc-con-arduino).

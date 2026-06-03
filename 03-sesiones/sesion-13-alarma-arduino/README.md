@@ -123,3 +123,15 @@ Para mantener la coherencia con la simulación de referencia, se adoptan como va
 ## Tarea para casa
 
 Actualizar la memoria técnica explicando la lógica de control del sistema.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe programar condiciones de alarma con `if`, `else if` y `else`, elegir umbrales razonados y comprobar la respuesta de salidas digitales. La comparación con comparadores analógicos ayuda a entender las ventajas de modificar una alarma mediante software.
+
+Materiales de apoyo:
+
+- Plantilla de alarmas: [`plantilla-alarmas.md`](plantilla-alarmas.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Código de alarma: [`../../07-recursos-tecnicos/codigo/codigo-alarma.ino`](../../07-recursos-tecnicos/codigo/codigo-alarma.ino).
+- Código de alarma comentado: [`../../07-recursos-tecnicos/codigo/codigo-alarma_comentado.ino`](../../07-recursos-tecnicos/codigo/codigo-alarma_comentado.ino).
+- Esquemático PDF: [`../../07-recursos-tecnicos/esquematicos/sistema-medicion-invernadero.pdf`](../../07-recursos-tecnicos/esquematicos/sistema-medicion-invernadero.pdf).

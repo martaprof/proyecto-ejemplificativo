@@ -112,3 +112,14 @@ La tabla de verdad permite comprobar todas las combinaciones posibles antes de m
 ## Tarea para casa
 
 Proponer una segunda lógica de alarma más exigente, por ejemplo, que solo active el aviso si coinciden dos condiciones de riesgo.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe construir tablas de verdad, traducir condiciones del invernadero a señales digitales y combinar avisos mediante puertas AND y OR. La comparación con Arduino debe mostrar que una misma decisión puede resolverse con lógica cableada o con lógica programada.
+
+Materiales de apoyo:
+
+- Plantilla de lógica digital: [`plantilla-logica.md`](plantilla-logica.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Simulación y captura de puerta AND 74HC08: [ejemplo 74HC08](https://www.tinkercad.com/things/6xM5R25zOTv-74hc08), [`ejemplo_tinkercad_74hc08.png`](ejemplo_tinkercad_74hc08.png).
+- Simulación y captura de puerta OR 74HC32: [ejemplo 74HC32](https://www.tinkercad.com/things/dLnw5kxa0kO-74hc32), [`ejemplo_tinkercad_74hc32.png`](ejemplo_tinkercad_74hc32.png).

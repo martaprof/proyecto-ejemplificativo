@@ -106,3 +106,14 @@ Esa potencia se transforma en calor en el regulador. Por eso conviene pensar no 
 ## Tarea para casa
 
 Redactar una breve justificación sobre qué solución de alimentación sería más adecuada para el prototipo didáctico.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe explicar la función de un diodo Zener en regulación, calcular una resistencia serie de forma razonada y comparar una solución con Zener frente a un regulador lineal LM7805. La decisión final debe justificarse pensando en la estabilidad de alimentación del sistema del invernadero.
+
+Materiales de apoyo:
+
+- Plantilla de regulación con Zener: [`plantilla-zener.md`](plantilla-zener.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Esquemático PDF de alimentación: [`../../07-recursos-tecnicos/esquematicos/etapa-alimentacion.pdf`](../../07-recursos-tecnicos/esquematicos/etapa-alimentacion.pdf).
+- Simulación de Tinkercad: [Etapa de alimentación propuesta](https://www.tinkercad.com/things/86WmB8kYQlm-etapa-alimentacion-propuesta?sharecode=afxcJYZ41KRPg-VGHuEB168YA-K5VH15ffmpeTkczFA).

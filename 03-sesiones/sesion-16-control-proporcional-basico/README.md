@@ -112,3 +112,15 @@ Calcula el error como `luzIzq - luzDch`, lo transforma en una posición objetivo
 ## Tarea para casa
 
 Explicar en qué casos un control gradual puede ser más útil que una alarma de encendido/apagado.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe calcular una señal de error, convertir lecturas analógicas en una posición de servo y analizar cómo cambia la respuesta al modificar la ganancia proporcional. La función `map()` se usa como herramienta para transformar rangos de valores.
+
+Materiales de apoyo:
+
+- Plantilla de control proporcional: [`plantilla-control-P.md`](plantilla-control-P.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Código de seguimiento: [`../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino`](../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino).
+- Código de seguimiento comentado: [`../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento_comentado.ino`](../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento_comentado.ino).
+- Simulación de Tinkercad: [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE).

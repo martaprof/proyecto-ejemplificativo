@@ -118,3 +118,14 @@ Si el circuito está configurado para activar la salida cuando la tensión del s
 ## Tarea para casa
 
 Preparar una tabla que relacione variable medida, condición de alarma, tensión de referencia y salida esperada.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe comprender cómo un comparador detecta el cruce de un umbral, diferenciar entrada inversora y no inversora, y explicar la necesidad de una resistencia pull-up en la salida del LM339. La simulación debe permitir observar cuándo se activa un aviso por luz o humedad simulada.
+
+Materiales de apoyo:
+
+- Plantilla de comparador analógico: [`plantilla-comparador.md`](plantilla-comparador.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Captura de simulación: [`ejemplo_tinkercad_lm393.png`](ejemplo_tinkercad_lm393.png).
+- Simulación de Tinkercad: [LM339 con LDR](https://www.tinkercad.com/things/bYwgD6IgaIH-lm339-ldr).

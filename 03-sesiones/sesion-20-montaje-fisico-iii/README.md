@@ -1,8 +1,8 @@
-# Sesión 20. Montaje físico III: integración completa y validación
+# Sesión 20. Integración completa y validación simulada
 
 ## Propósito
 
-Integrar todos los subsistemas y validar el funcionamiento global del prototipo.
+Integrar todos los subsistemas y validar el funcionamiento global de la propuesta mediante escenarios de prueba.
 
 ## Pregunta de trabajo
 
@@ -12,7 +12,7 @@ Integrar todos los subsistemas y validar el funcionamiento global del prototipo.
 
 - Integración de sensores, indicadores y actuadores.
 - Validación funcional.
-- Comparación entre simulación y montaje real.
+- Comparación entre comportamiento esperado y comportamiento simulado.
 - Ajuste final de código.
 - Preparación de la demostración.
 
@@ -43,7 +43,7 @@ Completar una matriz de validación con casos de prueba y resultado esperado.
 
 ## Evidencias
 
-- Prototipo integrado.
+- Propuesta integrada validada.
 - Código final.
 - Matriz de validación.
 - Capturas de simulación o tabla de validación del funcionamiento previsto.
@@ -56,7 +56,7 @@ Validar un prototipo significa comprobar si cumple la función para la que fue d
 
 En el proyecto del invernadero, la validación funcional debe incluir varios escenarios: poca luz, temperatura alta, humedad simulada fuera de rango y, si procede, movimiento del servomotor. Si el sistema responde correctamente, se marca como validado. Si no responde como se espera, se ajusta el circuito, el código o los umbrales.
 
-La comparación entre simulación y montaje real es importante. A veces los valores reales no coinciden exactamente con los simulados, pero eso no significa que el proyecto esté mal. Significa que hay que interpretar los datos y ajustar el sistema. La simulación ayuda a diseñar; el montaje real permite comprobar condiciones físicas.
+La comparación entre comportamiento esperado y comportamiento simulado es importante. Si los valores o respuestas no coinciden, no significa necesariamente que el proyecto esté mal; significa que hay que interpretar los datos y ajustar el sistema. Una implementación física futura permitiría comprobar condiciones reales, pero en este repositorio la evidencia principal será la simulación y la documentación técnica.
 
 El ajuste final de código puede incluir cambios en umbrales, tiempos de espera, mensajes por monitor serie o asignación de salidas. Estos cambios deben documentarse para que no parezcan decisiones improvisadas.
 
@@ -90,7 +90,7 @@ Una prueba de validación podría documentarse así:
 
 1. Define tres escenarios de prueba para el prototipo.
 2. Explica la diferencia entre probar y validar.
-3. Indica qué harías si el sistema funciona en Tinkercad pero no en el montaje físico.
+3. Indica qué revisarías si el sistema no responde igual que la matriz de validación.
 4. Propón un ajuste de umbral y explica cómo comprobarías si mejora el sistema.
 
 ## Recursos
@@ -102,3 +102,14 @@ Una prueba de validación podría documentarse así:
 ## Tarea para casa
 
 Finalizar la memoria técnica y preparar la presentación oral.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe validar el sistema mediante escenarios, comparar resultados esperados y observados, recopilar evidencias y proponer mejoras. La validación se realiza sobre la propuesta simulada y documentada.
+
+Materiales de apoyo:
+
+- Plantilla de validación global: [`plantilla-validacion.md`](plantilla-validacion.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Matriz de validación definitiva: [`matriz-validacion.md`](matriz-validacion.md).
+- Código integrado propuesto: [`../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino`](../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino).

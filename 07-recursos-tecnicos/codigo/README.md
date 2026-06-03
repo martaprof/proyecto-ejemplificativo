@@ -6,8 +6,17 @@ Esta carpeta recoge los programas Arduino asociados al proyecto.
 
 | Archivo | Uso dentro del proyecto |
 | --- | --- |
+| [`blink.ino`](blink.ino) | Ejemplo mínimo para hacer parpadear un LED conectado al pin 13. |
+| [`blink_comentado.ino`](blink_comentado.ino) | Versión comentada del ejemplo Blink, con explicación línea a línea en español. |
 | [`sistema-medicion-invernadero.ino`](sistema-medicion-invernadero.ino) | Código de referencia para la lectura de luz, temperatura y humedad simulada, con activación de avisos mediante salidas digitales. |
+| [`codigo-alarma.ino`](codigo-alarma.ino) | Programa específico para activar LED y zumbador mediante umbrales de luz, temperatura y humedad simulada. |
+| [`codigo-alarma_comentado.ino`](codigo-alarma_comentado.ino) | Versión comentada del sistema de alarma, útil para estudiar condicionales y depuración. |
+| [`servomotor.ino`](servomotor.ino) | Prueba básica de servomotor SG90 en posiciones de 0, 90 y 180 grados. |
+| [`servomotor_comentado.ino`](servomotor_comentado.ino) | Versión comentada de la prueba básica del servomotor. |
 | [`control-servomotor-seguimiento.ino`](control-servomotor-seguimiento.ino) | Código de referencia para el control de un servomotor a partir de dos sensores de luz. |
+| [`control-servomotor-seguimiento_comentado.ino`](control-servomotor-seguimiento_comentado.ino) | Versión comentada del control proporcional con dos LDR y servomotor. |
+| [`integracion_control_servomotor.ino`](integracion_control_servomotor.ino) | Programa de apoyo para validar el subsistema de seguimiento antes de integrarlo con el resto del proyecto. |
+| [`integracion_control_servomotor_comentado.ino`](integracion_control_servomotor_comentado.ino) | Versión comentada del programa de integración del control del servomotor. |
 | [`sistema-invernadero-integrado.ino`](sistema-invernadero-integrado.ino) | Código integrado propuesto para combinar medición, avisos y control con servomotor resolviendo el conflicto del pin `9`. |
 | [`pruebas/`](pruebas/) | Códigos mínimos para probar LED, LDR, TMP36, potenciómetro, zumbador y servomotor por separado. |
 

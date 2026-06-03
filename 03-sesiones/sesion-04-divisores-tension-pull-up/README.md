@@ -105,3 +105,14 @@ Arduino convertirá esa tensión en un valor entre 0 y 1023. Aproximadamente, 2,
 ## Tarea para casa
 
 Completar una tabla de valores estimados de tensión para diferentes condiciones de luz y humedad simulada.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe calcular e interpretar un divisor de tensión, comprender cómo una LDR o un potenciómetro pueden generar una señal analógica y explicar para qué sirven las resistencias pull-up y pull-down. La simulación debe mostrar cómo cambian las lecturas al modificar la luz o la posición del potenciómetro.
+
+Materiales de apoyo:
+
+- Plantilla de divisores de tensión: [`plantilla-divisor.md`](plantilla-divisor.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Simulación con LDR y captura: [ejemplo fotorresistencia](https://www.tinkercad.com/things/35IXq2zrHcm-ejemplo-fotoresistencia?sharecode=B0rxNFmXerjlVBuSw-MZM-MKR6paAd00jpHkw4XpIts), [`ejemplo_tinkercad_ldr.png`](ejemplo_tinkercad_ldr.png).
+- Simulación con potenciómetro y captura: [ejemplo potenciómetro](https://www.tinkercad.com/things/3nQT2ugQLCM-ejemplo-potenciometro?sharecode=xn7irmWocY7w9nVDOcBkHwy8wWHF_bX8DyxS5Yb4Z7s), [`ejemplo_tinkercad_potenciometro.png`](ejemplo_tinkercad_potenciometro.png).

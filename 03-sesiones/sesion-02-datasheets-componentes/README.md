@@ -102,3 +102,14 @@ Para analizar un componente, se puede usar esta secuencia:
 ## Tarea para casa
 
 Elegir un componente del proyecto y preparar una ficha breve con su función, conexión básica y precauciones de uso.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe saber qué es una hoja de características, localizar información básica de conexión y funcionamiento, y justificar la selección de sensores y actuadores del proyecto. La tabla de componentes debe servir como documento de consulta para el resto de sesiones.
+
+Materiales de apoyo:
+
+- Plantilla de análisis de datasheets: [`plantilla-datasheets.md`](plantilla-datasheets.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Componentes y valores seleccionados: [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
+- Lista de materiales por equipo: [`../../07-recursos-tecnicos/lista-materiales-por-equipo.md`](../../07-recursos-tecnicos/lista-materiales-por-equipo.md).

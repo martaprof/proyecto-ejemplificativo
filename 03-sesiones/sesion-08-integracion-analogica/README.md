@@ -102,3 +102,14 @@ Si cambia de forma inversa, puede corregirse en el circuito o tenerse en cuenta 
 ## Tarea para casa
 
 Actualizar la memoria técnica con el apartado de sensores y detección de umbrales.
+
+## Objetivos didácticos y materiales de apoyo
+
+Al finalizar la sesión, el alumnado debe integrar divisores, comparadores y etapas de aviso en un subsistema analógico coherente. El objetivo no es añadir más componentes sin control, sino comprobar alimentación, masa común, señales de entrada y salidas de aviso de forma ordenada antes de pasar a la programación.
+
+Materiales de apoyo:
+
+- Plantilla de integración analógica: [`plantilla-integracion.md`](plantilla-integracion.md).
+- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Plantilla de registro de errores: [`plantilla-registro-errores.md`](plantilla-registro-errores.md).
+- Simulación general de medición y avisos: [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg).
