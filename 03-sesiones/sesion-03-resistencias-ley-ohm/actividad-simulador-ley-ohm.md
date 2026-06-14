@@ -13,8 +13,7 @@ Comprobar visualmente cómo cambian la corriente y el brillo de un LED cuando se
 ## Material digital obligatorio
 
 - Simulador PhET Ley de Ohm: https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html
-- Simulación Tinkercad de LED con resistencia enlazada en el README de la sesión.
-- Simulación de referencia de LED con resistencia: enlace indicado en el README de la sesión.
+- Simulación Tinkercad de LED con resistencia: https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw
 
 El concepto teórico de ley de Ohm se introduce con el simulador PhET indicado. Después se usa Tinkercad para aplicar esa relación al LED del proyecto.
 
@@ -57,7 +56,11 @@ Valor comercial elegido = ______ ohmios
 
 ## Parte 3. Aplicación posterior al LED en Tinkercad
 
-Abre la simulación de LED con resistencia y prueba estos valores:
+Abre la simulación de LED con resistencia en Tinkercad:
+
+https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw
+
+Prueba estos valores:
 
 | Resistencia | Brillo observado | Corriente si aparece en el simulador | ¿Protege adecuadamente? | Observaciones |
 | --- | --- | --- | --- | --- |
