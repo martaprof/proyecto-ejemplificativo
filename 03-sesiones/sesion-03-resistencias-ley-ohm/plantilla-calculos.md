@@ -34,16 +34,6 @@ Valor calculado:
 | ---: | --- | ---: | --- |
 |  | 220 Ω / 330 Ω / 1 kΩ / otro |  |  |
 
-## Comprobación de potencia
-
-```text
-P = V · I
-```
-
-Potencia estimada en la resistencia:
-
-¿El valor es adecuado para una resistencia habitual de aula?
-
 ## Observaciones y análisis de errores
 
 1. ¿He usado amperios en lugar de miliamperios?
