@@ -8,6 +8,21 @@ Introducir el entorno Arduino y comprender la estructura básica de un programa.
 
 > ¿Cómo puede un microcontrolador leer información del invernadero y tomar decisiones?
 
+## Cómo usar los materiales de esta sesión
+
+Este README es el **punto de entrada** de la sesión. Resume la intención didáctica, los contenidos, las tareas y las evidencias. Para impartir la sesión de forma ordenada, se seguirá esta secuencia:
+
+| Momento | Archivo que se usa | Función |
+| --- | --- | --- |
+| Antes de clase | [`guion-docente-sesion-11.md`](guion-docente-sesion-11.md) | Preparar la explicación, los tiempos, las preguntas y la depuración guiada. |
+| Introducción teórica | [`presentacion-arduino.pptx`](presentacion-arduino.pptx) | Presentar Arduino como hardware y software. |
+| Demostración docente | Arduino IDE | Mostrar dónde se escribe, verifica y carga un programa. |
+| Práctica del equipo | Tinkercad Circuits y [`actividad-blink-guiada.md`](actividad-blink-guiada.md) | Ejecutar Blink, modificar tiempos y cambiar el pin del LED. |
+| Registro individual/equipo | [`plantilla-programacion.md`](plantilla-programacion.md) | Documentar pin, código, cambios, errores y observaciones. |
+| Evaluación docente | [`lista-cotejo.md`](lista-cotejo.md) | Registrar la valoración del docente sobre las evidencias entregadas. No es una tarea del alumnado. |
+
+La separación en tres documentos evita mezclar funciones: el README orienta, el guion docente guía la actuación del profesor y la actividad es la hoja de trabajo del alumnado.
+
 ## Contenidos
 
 - Placa compatible con Arduino.
@@ -27,13 +42,17 @@ Introducir el entorno Arduino y comprender la estructura básica de un programa.
 
 ## Materiales necesarios
 
-- Ordenador con Tinkercad o Arduino IDE.
+- Ordenador con acceso a Tinkercad Circuits.
+- Arduino IDE mostrado por el docente como software de referencia para programar placas Arduino.
 - Placa Arduino o simulación equivalente.
 - LED y resistencia limitadora.
 - Cableado o protoboard virtual.
 - Ejemplos de código [`../../07-recursos-tecnicos/codigo/blink.ino`](../../07-recursos-tecnicos/codigo/blink.ino) y [`../../07-recursos-tecnicos/codigo/blink_comentado.ino`](../../07-recursos-tecnicos/codigo/blink_comentado.ino).
 - Plantilla de programación: [`plantilla-programacion.md`](plantilla-programacion.md).
-- Lista de cotejo: [`lista-cotejo.md`](lista-cotejo.md).
+- Lista de cotejo docente: [`lista-cotejo.md`](lista-cotejo.md).
+- Guion docente detallado: [`guion-docente-sesion-11.md`](guion-docente-sesion-11.md).
+- Actividad guiada Blink: [`actividad-blink-guiada.md`](actividad-blink-guiada.md).
+- Presentación de aula: [`presentacion-arduino.pptx`](presentacion-arduino.pptx).
 
 ## Desarrollo de la sesión
 
@@ -45,7 +64,7 @@ Introducir el entorno Arduino y comprender la estructura básica de un programa.
 
 ## Pasos guiados
 
-1. Abrir la simulación o el entorno Arduino IDE.
+1. Abrir la simulación en Tinkercad Circuits.
 2. Cargar un ejemplo tipo Blink.
 3. Identificar el pin utilizado por el LED, inicialmente el pin 13.
 4. Localizar las instrucciones `pinMode()`, `digitalWrite()` y `delay()`.
@@ -75,7 +94,6 @@ Crear y modificar un programa básico para encender y apagar un LED.
 - Simulación funcionando.
 - Captura o enlace del circuito.
 - Plantilla de programación completada.
-- Lista de cotejo revisada.
 
 ## Explicación para el alumnado
 
@@ -111,7 +129,7 @@ También se introducen las entradas analógicas, aunque se trabajarán con más 
 
 La estructura `setup()` y `loop()` se trabajará escribiendo un programa mínimo. El docente puede mostrar primero el código completo y después pedir al alumnado que identifique qué parte se ejecuta una vez y qué parte se repite. Esta distinción será fundamental para programar lecturas continuas.
 
-El primer programa con LED se realizará en Tinkercad o Arduino IDE. El alumnado debe conectar un LED con resistencia, cargar o simular el programa y modificar los tiempos de encendido y apagado. Al cambiar `delay()`, observará que una instrucción modifica directamente el comportamiento del circuito.
+El primer programa con LED se realizará en Tinkercad Circuits. El docente habrá mostrado previamente Arduino IDE como software de referencia, pero el alumnado ejecutará la práctica en el simulador para que todos los equipos puedan trabajar con el mismo entorno. El alumnado debe conectar un LED con resistencia, simular el programa y modificar los tiempos de encendido y apagado. Al cambiar `delay()`, observará que una instrucción modifica directamente el comportamiento del circuito.
 
 La sesión termina relacionando el LED de prueba con los indicadores del sistema final. Aunque el circuito sea sencillo, la idea será la misma: Arduino activará salidas cuando detecte una condición concreta en el invernadero.
 
@@ -148,11 +166,15 @@ Si cambiamos `delay(1000)` por `delay(200)`, el parpadeo será más rápido. Est
 - Código Arduino de referencia: [`../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino`](../../07-recursos-tecnicos/codigo/sistema-medicion-invernadero.ino).
 - Ejemplo básico Blink: [`../../07-recursos-tecnicos/codigo/blink.ino`](../../07-recursos-tecnicos/codigo/blink.ino).
 - Ejemplo Blink comentado: [`../../07-recursos-tecnicos/codigo/blink_comentado.ino`](../../07-recursos-tecnicos/codigo/blink_comentado.ino).
+- Guion docente detallado de implementación: [`guion-docente-sesion-11.md`](guion-docente-sesion-11.md).
+- Actividad guiada para el alumnado: [`actividad-blink-guiada.md`](actividad-blink-guiada.md).
+- Presentación para explicar placa, pines, `setup()`, `loop()` y Blink: [`presentacion-arduino.pptx`](presentacion-arduino.pptx).
+- Ejemplo oficial Blink de Arduino: [Arduino Blink](https://docs.arduino.cc/built-in-examples/basics/Blink/).
 - Simulación de primer programa Arduino con parpadeo de LED: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
 ![Captura de la simulación de primer programa Arduino con LED parpadeante](ejemplo_tinkercad_parpadeo.png)
 - Enlace oficial de descarga de Arduino IDE: [Arduino Software](https://www.arduino.cc/en/software).
 - Plantilla de programación: [`plantilla-programacion.md`](plantilla-programacion.md).
-- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Lista de cotejo docente de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
 
 ## Tareas y reflexión
 
