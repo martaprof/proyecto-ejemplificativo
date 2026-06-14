@@ -13,9 +13,9 @@
 | Zumbador |  |  |
 | Servomotor |  |  |
 
-## Conflictos de pines
+## Comprobación de pines
 
-| Conflicto detectado | Solución aplicada | Justificación |
+| Comprobación realizada | Resultado | Corrección si procede |
 | --- | --- | --- |
 |  |  |  |
 
