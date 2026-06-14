@@ -13,7 +13,7 @@ Comprobar visualmente cómo cambian la corriente y el brillo de un LED cuando se
 ## Material digital obligatorio
 
 - Simulador PhET Ley de Ohm: https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html
-- Simulación Tinkercad de LED con resistencia: https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw
+- Simulación Tinkercad de pila, LED y resistencia: https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320
 
 El concepto teórico de ley de Ohm se introduce con el simulador PhET indicado. Después se usa Tinkercad para aplicar esa relación al LED del proyecto.
 
@@ -23,7 +23,7 @@ El concepto teórico de ley de Ohm se introduce con el simulador PhET indicado. 
 | --- | --- |
 | Coordinación-documentación | Lee instrucciones y completa la tabla de resultados. |
 | Simulación-montaje | Modifica los valores de resistencia en el simulador. |
-| Programación-verificación | Comprueba unidades, captura la evidencia y revisa la lista de cotejo. |
+| Programación-verificación | Comprueba unidades, captura la evidencia y revisa que la decisión técnica sea coherente con los resultados. |
 
 ## Parte 1. Observación de la ley de Ohm en PhET
 
@@ -56,9 +56,9 @@ Valor comercial elegido = ______ ohmios
 
 ## Parte 3. Aplicación posterior al LED en Tinkercad
 
-Abre la simulación de LED con resistencia en Tinkercad:
+Abre la simulación de pila, LED y resistencia en Tinkercad:
 
-https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw
+https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320
 
 Prueba estos valores:
 
@@ -80,10 +80,9 @@ Responde con una explicación breve:
 
 El equipo debe guardar:
 
-- captura o enlace de la simulación;
-- tabla de resultados;
-- decisión final justificada;
-- lista de cotejo revisada.
+- captura o enlace de la simulación.
+- tabla de resultados.
+- decisión final justificada.
 
 Mensaje de commit recomendado:
 

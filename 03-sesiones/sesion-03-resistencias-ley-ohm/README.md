@@ -19,7 +19,7 @@ Este README es el **punto de entrada** de la sesión. Sirve para entender qué s
 | Demostración conceptual | [PhET Ley de Ohm](https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html) | Mostrar cómo cambian voltaje, resistencia e intensidad. |
 | Trabajo del equipo | [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md) | Guiar paso a paso la observación en PhET y la aplicación al LED. |
 | Registro individual/equipo | [`plantilla-calculos.md`](plantilla-calculos.md) | Documentar datos, fórmula, cálculo, valor comercial y conclusión. |
-| Cierre | [`lista-cotejo.md`](lista-cotejo.md) | Comprobar evidencias mínimas y cerrar la sesión. |
+| Evaluación docente | [`lista-cotejo.md`](lista-cotejo.md) | Registrar la valoración del docente sobre las evidencias entregadas. No es una tarea del alumnado. |
 
 La separación en tres documentos evita mezclar funciones: el README orienta, el guion docente guía la actuación del profesor y la actividad es la hoja de trabajo del alumnado.
 
@@ -27,7 +27,6 @@ La separación en tres documentos evita mezclar funciones: el README orienta, el
 
 - Tensión, corriente y resistencia.
 - Ley de Ohm.
-- Potencia eléctrica básica.
 - Resistencia limitadora para LED.
 - Relación entre cálculo y montaje real.
 
@@ -42,24 +41,24 @@ La separación en tres documentos evita mezclar funciones: el README orienta, el
 ## Materiales necesarios
 
 - Ordenador con acceso a Tinkercad.
-- Simulación de LED con resistencia o circuito equivalente.
+- Simulación de pila, LED y resistencia en Tinkercad: [ejemplo pila LED R](https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320).
 - Placa Arduino o fuente de 5 V simulada.
 - LED de 5 mm.
 - Resistencias de 220 Ω, 330 Ω y 1 kΩ.
 - Calculadora o cuaderno de trabajo.
 - Plantilla de cálculos: [`plantilla-calculos.md`](plantilla-calculos.md).
-- Lista de cotejo: [`lista-cotejo.md`](lista-cotejo.md).
+- Lista de cotejo docente: [`lista-cotejo.md`](lista-cotejo.md).
 - Guion docente detallado: [`guion-docente-sesion-03.md`](guion-docente-sesion-03.md).
 - Actividad de simulación guiada: [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md).
 - Presentación de aula: [`presentacion-ley-de-ohm.pptx`](presentacion-ley-de-ohm.pptx).
 
 ## Desarrollo de la sesión
 
-1. Repaso de magnitudes eléctricas.
-2. Cálculo de una resistencia limitadora para un LED.
-3. Análisis de errores frecuentes.
-4. Simulación en Tinkercad de LED con diferentes resistencias.
-5. Aplicación al sistema de indicadores del invernadero.
+1. Presentación del reto técnico: proteger un LED del sistema de avisos.
+2. Explicación de voltaje, intensidad y resistencia con la presentación y el simulador PhET.
+3. Ejemplo docente de cálculo con datos distintos a los de la actividad del alumnado.
+4. Trabajo autónomo guiado con `actividad-simulador-ley-ohm.md`.
+5. Decisión técnica final, entrega de evidencias y valoración docente con `lista-cotejo.md`.
 
 ## Pasos de cálculo y simulación
 
@@ -84,15 +83,15 @@ flowchart LR
 
 ## Actividad del alumnado
 
-Calcular resistencias adecuadas para distintos LED del sistema: estado correcto, aviso de temperatura, aviso de baja luz y alarma general.
+Completar `actividad-simulador-ley-ohm.md`, aplicar la ley de Ohm al LED del proyecto, comparar valores comerciales en Tinkercad y justificar una decisión técnica final.
 
 ## Evidencias
 
-- Ejercicios de cálculo.
-- Captura de simulación con LED.
-- Explicación de la función de la resistencia.
-- Plantilla de cálculos completada.
-- Lista de cotejo revisada.
+- `actividad-simulador-ley-ohm.md` completada.
+- `plantilla-calculos.md` completada.
+- Tabla de comparación entre 220 Ω, 330 Ω y 1 kΩ.
+- Captura o enlace de la simulación de Tinkercad.
+- Decisión técnica final justificada.
 
 ## Explicación para el alumnado
 
@@ -106,47 +105,41 @@ V = I · R
 
 Donde `V` es la tensión en voltios, `I` la corriente en amperios y `R` la resistencia en ohmios. Esta fórmula permite calcular valores antes de montar. En electrónica no conviene conectar componentes "a ojo", porque una corriente excesiva puede dañarlos.
 
-También debemos considerar la potencia eléctrica. La potencia indica cuánta energía por unidad de tiempo se transforma en un componente, normalmente en calor o luz. Se calcula de forma básica como:
-
-```text
-P = V · I
-```
-
-En resistencias pequeñas de aula normalmente trabajaremos con potencias bajas, pero la idea es importante: si una resistencia disipa más potencia de la que soporta, puede calentarse demasiado.
-
 En el sistema del invernadero usaremos LED como indicadores. Un LED puede avisar de temperatura alta, otro de poca luz y otro de humedad fuera de rango. Para que un LED funcione correctamente, debe llevar una resistencia limitadora en serie. Esa resistencia reduce la corriente y protege tanto el LED como la salida de Arduino.
 
-La relación entre cálculo y montaje real es directa. Primero se calcula un valor aproximado, después se escoge un valor comercial disponible y finalmente se comprueba en Tinkercad o en el montaje físico. Por ejemplo, si el cálculo da 300 ohmios, un valor comercial de 330 ohmios es adecuado y seguro para un LED de 5 mm.
+La relación entre cálculo y montaje real es directa. Primero se calcula un valor aproximado, después se escoge un valor comercial disponible y finalmente se comprueba en Tinkercad o en el montaje físico. La elección no debe basarse solo en el brillo, sino en la protección del LED y de la salida de Arduino.
 
 ## Desarrollo guiado de la sesión
 
-La sesión comienza con un repaso de las magnitudes eléctricas básicas. El alumnado debe distinguir tensión, corriente y resistencia usando unidades correctas. Conviene trabajar con ejemplos cercanos al proyecto: la placa Arduino proporciona 5 V, un LED necesita una corriente limitada y una resistencia permite controlar esa corriente. El objetivo es que las magnitudes no aparezcan como fórmulas aisladas, sino como datos necesarios para diseñar.
+La sesión comienza con el reto técnico: los LED de aviso del invernadero no pueden conectarse directamente a 5 V porque una corriente excesiva puede dañarlos. Cada alumno escribe una hipótesis breve sobre qué cree que ocurriría si el LED se conectara sin resistencia. Esta hipótesis permite detectar ideas previas antes de introducir la ley de Ohm.
 
-Después se introduce la ley de Ohm como herramienta de cálculo. Se realizarán ejercicios sencillos antes de aplicarla al circuito. El alumnado debe practicar despejes básicos: calcular resistencia si conoce tensión y corriente, calcular corriente si conoce tensión y resistencia, y comprobar si el resultado tiene sentido. Se insistirá en convertir miliamperios a amperios, porque es un error frecuente.
+Después se introduce la ley de Ohm con `presentacion-ley-de-ohm.pptx` y el simulador PhET. La presentación se centra en voltaje, intensidad, resistencia y lectura de la fórmula. El docente muestra primero qué ocurre si aumenta el voltaje con resistencia fija y después qué ocurre si aumenta la resistencia con voltaje fijo. El objetivo es que el alumnado comprenda la relación antes de aplicarla al LED.
 
-La potencia eléctrica se tratará de forma básica, conectada con la seguridad. No se pretende hacer un estudio avanzado de disipación, pero sí comprender que los componentes transforman energía y pueden calentarse. Si una resistencia trabaja por encima de su potencia admisible, puede dañarse. Esta idea prepara al alumnado para valorar los límites de los componentes.
+Antes de iniciar la actividad autónoma, el docente resuelve un ejemplo de cálculo con datos distintos a los que usará el alumnado. Este ejemplo sirve para enseñar el procedimiento sin anticipar la respuesta de la actividad.
 
-El cálculo de la resistencia limitadora para LED será la aplicación central. Cada equipo calculará el valor necesario para un LED alimentado a 5 V, considerando una tensión directa aproximada y una corriente recomendada. Después se comparará el resultado con valores comerciales, especialmente 220 Ω y 330 Ω. El alumnado debe justificar cuál elegiría y por qué.
+El trabajo principal del alumnado se realiza con `actividad-simulador-ley-ohm.md`. La actividad tiene cinco partes: observación de la ley de Ohm en PhET, cálculo previo del LED, aplicación en Tinkercad, decisión técnica y evidencia final. En la simulación de Tinkercad se prueban 220 Ω, 330 Ω y 1 kΩ, se observa el brillo del LED y se registra la evidencia.
 
-La relación entre cálculo y montaje real se trabajará mediante simulación. En Tinkercad se probará el LED con diferentes valores de resistencia para observar el cambio de brillo y corriente. Lo importante es que el cálculo se conecte con una decisión técnica real.
+Durante el trabajo autónomo, el docente interviene con preguntas. Si detecta errores de cálculo, pregunta por la conversión de mA a A, la tensión que cae en la resistencia y la diferencia entre valor calculado y valor comercial. Si el LED no funciona en Tinkercad, pregunta por polaridad, resistencia en serie, conexión a GND y coherencia entre cálculo y montaje.
 
-La sesión finaliza registrando los resultados en la memoria o cuaderno técnico. Cada equipo debe escribir la fórmula utilizada, los datos considerados, el cálculo y el valor comercial seleccionado. Esta forma de documentar será la misma que se espera en decisiones posteriores del proyecto.
+La sesión finaliza con la decisión técnica del equipo y la entrega de evidencias. Cada equipo debe explicar qué resistencia usaría para un LED de aviso del invernadero, por qué no elige simplemente la resistencia que produce más brillo y cómo se relaciona la elección con la seguridad del circuito. Después, el docente utiliza `lista-cotejo.md` para valorar la actividad, registrar observaciones y decidir qué retroalimentación necesita cada equipo.
 
 ## Ejemplo guiado
 
-Queremos conectar un LED a una salida de 5 V. Suponemos que el LED tiene una caída de tensión aproximada de 2 V y queremos que circule una corriente de 10 mA.
+El docente resuelve este ejemplo antes del trabajo autónomo. Los datos no coinciden con los de la actividad del alumnado.
+
+Queremos conectar un LED a una alimentación de 9 V. Suponemos que el LED tiene una caída de tensión aproximada de 2,1 V y queremos que circule una corriente de 15 mA.
 
 ```text
-Tensión en la resistencia = 5 V - 2 V = 3 V
-Corriente deseada = 10 mA = 0,01 A
-R = V / I = 3 / 0,01 = 300 ohmios
+Tensión en la resistencia = 9 V - 2,1 V = 6,9 V
+Corriente deseada = 15 mA = 0,015 A
+R = V / I = 6,9 / 0,015 = 460 ohmios
 ```
 
-Como 300 ohmios no siempre es un valor disponible, se puede escoger un valor comercial cercano, por ejemplo 330 ohmios.
+Como 460 ohmios no siempre es un valor disponible, se puede escoger un valor comercial cercano y seguro, por ejemplo 470 ohmios.
 
 ## Mini-ejercicios
 
-1. Calcula la resistencia necesaria para un LED rojo conectado a 5 V si su caída de tensión es 2 V y queremos 15 mA.
+1. Calcula la resistencia necesaria para un LED conectado a 9 V si su caída de tensión es 2,1 V y queremos 10 mA.
 2. Calcula la corriente que circula por una resistencia de 220 ohmios conectada a 5 V.
 3. Explica qué podría ocurrir si conectas un LED directamente a 5 V sin resistencia.
 4. Elige entre 220 ohmios, 330 ohmios y 1 kiloohmio para proteger un LED. Justifica tu elección.
@@ -158,19 +151,19 @@ Como 300 ohmios no siempre es un valor disponible, se puede escoger un valor com
 - Actividad de simulación para el alumnado: [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md).
 - Presentación para explicar tensión, corriente, resistencia y cálculo de LED: [`presentacion-ley-de-ohm.pptx`](presentacion-ley-de-ohm.pptx).
 - Simulador obligatorio para introducir la ley de Ohm: [PhET Ley de Ohm](https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html).
-- Simulación de Tinkercad con LED y resistencia alimentado desde Arduino: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
+- Simulación de Tinkercad con pila, LED y resistencia: [ejemplo pila LED R](https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320).
 - Plantilla de cálculos: [`plantilla-calculos.md`](plantilla-calculos.md).
-- Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
+- Lista de cotejo docente de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
 - Ejercicios adicionales: calcular resistencias para LED con alimentación de 3,3 V, 5 V y 9 V, usando corrientes de 5 mA, 10 mA y 15 mA.
 
-![Captura de la simulación de LED con resistencia y Arduino](ejemplo_tinkercad_led.png)
+![Captura de la simulación de pila, LED y resistencia](ejemplo_tinkercad_led.png)
 
 ## Tareas y reflexión
 
-1. Completa la plantilla de cálculos para al menos dos LED o dos condiciones distintas.
-2. Explica qué error se produciría si no se resta la caída de tensión del LED.
-3. Compara 220 Ω y 330 Ω: ¿cuál protege más el LED y por qué?
-4. Escribe una breve reflexión sobre cómo el cálculo previo ayuda a evitar errores en el montaje o la simulación.
+1. Completa `actividad-simulador-ley-ohm.md`.
+2. Completa `plantilla-calculos.md` con el cálculo del LED de la actividad.
+3. Compara 220 Ω, 330 Ω y 1 kΩ en Tinkercad.
+4. Escribe la decisión técnica final y entrega las evidencias indicadas.
 
 ## Tarea para casa
 

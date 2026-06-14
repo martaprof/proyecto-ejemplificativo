@@ -1,5 +1,7 @@
 # Lista de cotejo. Sesión 03
 
+Uso docente. Esta lista sirve para registrar la evaluación formativa de las evidencias entregadas por cada equipo. No forma parte de la actividad que debe completar el alumnado.
+
 | Criterio | Sí | Parcial | No | Observaciones |
 | --- | --- | --- | --- | --- |
 | Identifica correctamente tensión, corriente y resistencia. |  |  |  |  |

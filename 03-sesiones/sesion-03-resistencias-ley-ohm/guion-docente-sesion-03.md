@@ -19,19 +19,19 @@ La sesión no se plantea como una explicación aislada de fórmula, sino como re
 
 Antes de clase, el docente debe tener preparados:
 
-- presentación `presentacion-ley-de-ohm.pptx`;
-- README de la sesión proyectado;
-- plantilla de cálculos `plantilla-calculos.md`;
-- actividad del simulador `actividad-simulador-ley-ohm.md`;
-- lista de cotejo `lista-cotejo.md`;
-- enlace al simulador PhET Ley de Ohm: https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html;
-- enlace a la simulación Tinkercad de LED con resistencia;
-- resistencias reales de 220 ohmios, 330 ohmios y 1 kiloohmio;
-- un LED de 5 mm;
-- placa Arduino o fuente de 5 V simulada;
+- presentación `presentacion-ley-de-ohm.pptx`.
+- README de la sesión proyectado.
+- plantilla de cálculos `plantilla-calculos.md`.
+- actividad del simulador `actividad-simulador-ley-ohm.md`.
+- lista de cotejo de uso docente `lista-cotejo.md`.
+- enlace al simulador PhET Ley de Ohm: https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html.
+- enlace a la simulación Tinkercad de pila, LED y resistencia: https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320.
+- resistencias reales de 220 ohmios, 330 ohmios y 1 kiloohmio.
+- un LED de 5 mm.
+- placa Arduino o fuente de 5 V simulada.
 - un ordenador por equipo.
 
-Si se trabaja con fork de alumnado, el docente debe comprobar que el alumnado no tiene acceso al solucionario de la sesión 03. Debe conservar la plantilla y la lista de cotejo, pero retirar los cálculos resueltos del fork visible para equipos.
+Si se trabaja con fork de alumnado, el docente debe comprobar que el alumnado no tiene acceso al solucionario de la sesión 03. Debe conservar la plantilla de cálculos y la actividad de simulación en el fork visible para equipos. La lista de cotejo puede permanecer en el repositorio docente, porque se usa para la evaluación del profesor y no como tarea del alumnado.
 
 ## Distribución del aula
 
@@ -39,9 +39,9 @@ Cada equipo se sienta alrededor de un ordenador. El docente proyecta la presenta
 
 Roles durante la sesión:
 
-- coordinación-documentación: abre el README, lee la tarea y completa la plantilla;
-- simulación-montaje: maneja el simulador PhET Ley de Ohm durante la explicación y Tinkercad durante la aplicación al LED;
-- programación-verificación: revisa unidades, cálculo y lista de cotejo.
+- coordinación-documentación: abre el README, lee la tarea y completa la plantilla.
+- simulación-montaje: maneja el simulador PhET Ley de Ohm durante la explicación y Tinkercad durante la aplicación al LED.
+- programación-verificación: revisa unidades, cálculo, evidencia de simulación y coherencia de la decisión técnica.
 
 Al cierre, el equipo debe rotar el control del ordenador al menos una vez para que no trabaje siempre la misma persona.
 
@@ -49,14 +49,19 @@ Al cierre, el equipo debe rotar el control del ordenador al menos una vez para q
 
 | Minutos | Acción docente | Acción del alumnado | Material |
 | --- | --- | --- | --- |
-| 0-5 | Presenta el reto de la sesión: proteger un LED del sistema de avisos. | Escribe una hipótesis sobre qué ocurre si un LED se conecta sin resistencia. | Diapositivas 1-2, README. |
-| 5-12 | Explica tensión, corriente y resistencia con apoyo visual. | Relaciona cada magnitud con una parte del circuito. | Diapositivas 3-6 y simulador PhET Ley de Ohm. |
-| 12-20 | Muestra la ley de Ohm como decisión de diseño. | Sigue el cálculo guiado y anota unidades. | Diapositivas 5-6, pizarra. |
-| 20-30 | Propone cálculo individual del LED. | Completa la primera parte de `plantilla-calculos.md`. | Plantilla de cálculos. |
-| 30-38 | Pide contraste por equipos y elección de valor comercial. | Compara 220, 330 y 1000 ohmios y justifica elección. | Resistencias reales o tabla de valores. |
-| 38-48 | Guía la aplicación al LED con distintos valores de resistencia. | Prueba valores, observa brillo/corriente y guarda evidencia. | Tinkercad con LED y resistencia. |
-| 48-53 | Pide conclusión técnica. | Escribe qué resistencia usará y por qué. | Plantilla y lista de cotejo. |
-| 53-55 | Indica commit o entrega. | Guarda cambios con mensaje pautado. | Fork del equipo o aula virtual. |
+| 0-3 | Presenta el reto de la sesión: proteger un LED del sistema de avisos. | Escucha la pregunta de trabajo y sitúa el problema en el prototipo. | README de la sesión. |
+| 3-5 | Pide una hipótesis inicial y recoge dos o tres respuestas sin corregir todavía. | Escribe qué cree que ocurrirá si un LED se conecta sin resistencia. | Cuaderno o plantilla. |
+| 5-8 | Abre `presentacion-ley-de-ohm.pptx` y presenta voltaje, intensidad y resistencia con las diapositivas 1 y 2. | Relaciona cada magnitud con una parte del circuito. | Diapositivas 1-2. |
+| 8-12 | Explica el voltaje con la diapositiva 3 y PhET, manteniendo fija la resistencia y modificando Voltage. | Predice qué ocurrirá con la intensidad antes de mover el control. | Diapositiva 3 y PhET. |
+| 12-15 | Explica la intensidad con la diapositiva 4 y la conversión `1 mA = 0,001 A`. | Anota la conversión y la relaciona con la corriente segura de un LED. | Diapositiva 4. |
+| 15-18 | Explica la resistencia con la diapositiva 5 y PhET, manteniendo fijo el voltaje y aumentando Resistance. | Observa que la intensidad disminuye y compara 220 Ω, 330 Ω y 1 kΩ. | Diapositiva 5, PhET y resistencias reales. |
+| 18-21 | Presenta la fórmula con la diapositiva 6 como relación entre magnitudes. | Anota `V = I · R`, `I = V / R` y `R = V / I`. | Diapositiva 6. |
+| 21-24 | Realiza la secuencia de demostración de la diapositiva 7: fijar R y aumentar V, fijar V y aumentar R, pedir predicción. | Formula predicciones y comprueba si coinciden con el simulador. | Diapositiva 7 y PhET. |
+| 24-27 | Usa la diapositiva 8 para cerrar la introducción teórica con un ejemplo de predicción. | Interpreta que aumentar la resistencia reduce la corriente. | Diapositiva 8. |
+| 27-32 | Resuelve un ejemplo de cálculo con datos distintos a los de la actividad del alumnado. | Sigue el procedimiento y anota pasos, unidades y elección comercial. | Pizarra o documento proyectado. |
+| 32-47 | Da paso al trabajo autónomo guiado con `actividad-simulador-ley-ohm.md`. | Completa las partes 1, 2, 3 y 4 de la actividad. | PhET, Tinkercad, actividad y plantilla. |
+| 47-52 | Pide la decisión técnica final y aplica `lista-cotejo.md` para registrar la valoración docente. | Justifica qué resistencia usará y entrega las evidencias de la actividad. | Actividad y lista de cotejo docente. |
+| 52-55 | Indica evidencias y commit o entrega. | Guarda actividad, plantilla, captura o enlace y mensaje pautado. | Fork del equipo o aula virtual. |
 
 ## Cómo explicar los conceptos
 
@@ -101,33 +106,45 @@ Después se comprueba en el simulador PhET Ley de Ohm y, más adelante, en Tinke
 
 ## Cálculo guiado
 
-El docente resuelve en pizarra:
+El docente resuelve en pizarra un ejemplo con datos distintos a los que resolverá después el alumnado:
 
 ```text
-Alimentación: 5 V
-Caída aproximada del LED rojo: 2 V
-Corriente deseada: 10 mA = 0,01 A
+Alimentación: 9 V
+Caída aproximada del LED: 2,1 V
+Corriente deseada: 15 mA = 0,015 A
 
-Tensión en la resistencia = 5 V - 2 V = 3 V
-R = V / I = 3 / 0,01 = 300 ohmios
+Tensión en la resistencia = 9 V - 2,1 V = 6,9 V
+R = V / I = 6,9 / 0,015 = 460 ohmios
 ```
 
 Decisión:
 
 ```text
-Valor comercial elegido: 330 ohmios
-Motivo: es cercano al cálculo y reduce ligeramente la corriente, protegiendo el LED.
+Valor comercial elegido: 470 ohmios
+Motivo: es cercano al cálculo y es un valor comercial seguro.
 ```
 
 Errores que se deben anticipar:
 
-- usar `10` en lugar de `0,01`;
-- no restar la caída del LED;
-- escribir ohmios sin comprobar si el valor existe;
-- elegir 220 ohmios solo porque el LED brilla más;
+- usar `10` en lugar de `0,01`.
+- no restar la caída del LED.
+- escribir ohmios sin comprobar si el valor existe.
+- elegir 220 ohmios solo porque el LED brilla más.
 - confundir tensión de alimentación con tensión en la resistencia.
 
-## Intervención docente durante el trabajo
+## Trabajo autónomo guiado
+
+Desde el minuto 32, los equipos trabajan con `actividad-simulador-ley-ohm.md`.
+
+La actividad se organiza así:
+
+1. Observación de la ley de Ohm en PhET.
+2. Cálculo previo del LED con los datos de la actividad: 5 V, caída de 2 V y 10 mA.
+3. Aplicación en Tinkercad con la simulación de pila, LED y resistencia: https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320.
+4. Comparación de 220 Ω, 330 Ω y 1 kΩ.
+5. Decisión técnica, evidencia y commit.
+
+## Intervención docente durante el trabajo autónomo
 
 El docente no debe resolver directamente el cálculo de cada equipo. Conviene usar preguntas:
 
@@ -147,11 +164,11 @@ Cada equipo debe dejar:
 1. `plantilla-calculos.md` completada.
 2. Tabla de comparación entre 220, 330 y 1000 ohmios.
 3. Captura o enlace de simulación.
-4. Lista de cotejo revisada.
+4. Decisión técnica justificada.
 5. Commit o entrega con mensaje:
 
 ```text
-Sesion 03 - calculo resistencia LED - Equipo X
+Sesion 03 - simulacion ley de Ohm - Equipo X
 ```
 
 ## Cierre didáctico
