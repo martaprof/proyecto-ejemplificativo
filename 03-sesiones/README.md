@@ -18,7 +18,7 @@ Cada README de sesión combina dos usos: planificación docente y material de le
 | Hojas de características y componentes | 1 | Lectura básica de hojas de características y selección de componentes. |
 | Circuitos eléctricos y electrónicos | 8 | Resistencias, divisores de tensión, pull-up, Zener, transistores, comparadores y lógica digital. |
 | Programación con Arduino | 3 | Introducción al entorno, lectura de sensores y sistema de avisos. |
-| Sistemas automáticos | 4 | Relación sensor-controlador-actuador y control mediante servomotor. |
+| Sistemas automáticos | 4 | Relación sensor-controlador-actuador, control del servomotor e integración inicial con el sistema de avisos. |
 | Montaje físico e integración | 4 | Construcción, verificación y puesta en funcionamiento del prototipo. |
 
 ## Itinerario de sesiones
@@ -40,8 +40,8 @@ Cada README de sesión combina dos usos: planificación docente y material de le
 | 13 | Sistema de alarma con Arduino | Activación de LED y zumbador según umbrales. |
 | 14 | Sistemas automáticos | Modelo sensor-controlador-actuador. |
 | 15 | Servomotor y actuación | Control básico de un servomotor. |
-| 16 | Control proporcional básico | Ajuste de respuesta en función de una variable medida. |
-| 17 | Integración del control automático | Prueba del subsistema automático del invernadero. |
+| 16 | Control proporcional básico | Cierre del control proporcional del servomotor con simulación y código de seguimiento. |
+| 17 | Integración del control automático | Integración inicial de sensores, avisos, servo, pines y depuración. |
 | 18 | Montaje físico I | Organización, reparto de roles y montaje inicial. |
 | 19 | Montaje físico II | Cableado, pruebas parciales y depuración. |
 | 20 | Montaje físico III | Integración completa y validación. |

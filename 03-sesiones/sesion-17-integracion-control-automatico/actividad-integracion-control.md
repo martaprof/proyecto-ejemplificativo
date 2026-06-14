@@ -18,8 +18,20 @@ Integrar sensores, avisos y servomotor comprobando que el sistema mide, decide y
 - `plantilla-integracion-control.md`.
 - `plantilla-pruebas-control-automatico.md`.
 - La lista de cotejo queda reservada para la evaluación del docente.
-- Simulación Tinkercad del subsistema con servo.
+- Simulación Tinkercad del subsistema con servo: https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE
 - Código parcial indicado por el docente.
+
+## Secuencia de trabajo en aula
+
+| Minutos | Trabajo del equipo | Evidencia |
+| --- | --- | --- |
+| 8-12 | Traducir una variable medida en condición y acción. | Frase de control y comparación de código. |
+| 16-20 | Revisar mapa de pines. | Tabla de pines completada. |
+| 24-30 | Validar sensores, avisos y servo por separado. | Tabla de validación por partes. |
+| 30-35 | Integrar una primera condición. | Condición escrita en lenguaje natural, código y acción esperada. |
+| 35-40 | Ejecutar la simulación y depurar si aparece un fallo. | Error o comprobación documentada. |
+| 40-53 | Probar escenarios extremos. | Tabla de pruebas completada. |
+| 53-55 | Preparar commit o entrega. | Evidencias guardadas. |
 
 ## Reparto de roles
 
@@ -28,6 +40,16 @@ Integrar sensores, avisos y servomotor comprobando que el sistema mide, decide y
 | Coordinación-documentación | Completa plantilla, registra decisiones y prepara commit. |
 | Simulación-montaje | Revisa conexiones, cambia sensores simulados y guarda captura. |
 | Programación-verificación | Revisa pines, ejecuta código y comprueba pruebas. |
+
+## Parte 0. Traducir variable, condición y acción
+
+Antes de revisar pines, completad una traducción rápida:
+
+| Variable medida | Condición en lenguaje natural | Comparación de código | Acción esperada |
+| --- | --- | --- | --- |
+| Luz izquierda y luz derecha |  |  |  |
+| Temperatura |  |  |  |
+| Humedad simulada |  |  |  |
 
 ## Parte 1. Revisar el mapa de pines
 
@@ -113,16 +135,16 @@ Aunque todo funcione, documentad al menos una comprobación:
 
 El equipo debe guardar:
 
-- mapa de pines revisado;
-- plantilla de integración;
-- tabla de pruebas;
-- captura o enlace de simulación;
-- código parcial o integrado;
+- mapa de pines revisado.
+- plantilla de integración.
+- tabla de pruebas.
+- captura o enlace de simulación.
+- código parcial o integrado.
 
 Mensaje de commit recomendado:
 
 ```text
-Sesion 17 - pruebas integracion control - Equipo X
+Sesion 17 - integracion control automatico - Equipo X
 ```
 
 ## Reflexión final

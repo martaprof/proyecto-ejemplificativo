@@ -11,7 +11,7 @@ Este documento fija la asignación de pines que se utilizará al integrar sensor
 | Potenciómetro de humedad | A2 | Entrada analógica | Simular humedad variable. |
 | LDR izquierda para servo | A3 | Entrada analógica | Comparar luz izquierda. |
 | LDR derecha para servo | A4 | Entrada analógica | Comparar luz derecha. |
-| LED de luz baja | 6 | Salida digital | Aviso visual. |
+| LED de luz baja | 11 | Salida digital | Aviso visual. |
 | Zumbador | 7 | Salida digital | Alarma acústica. |
 | LED de temperatura | 8 | Salida digital | Aviso visual de temperatura. |
 | Servomotor | 9 | Salida PWM/control servo | Actuación automática. |
@@ -24,6 +24,9 @@ La propuesta integrada utiliza una asignación única para cada componente:
 ```text
 LED de temperatura: pin 8.
 Servomotor: pin 9.
+LED de humedad: pin 10.
+LED de luz baja: pin 11.
+Zumbador: pin 7.
 ```
 
 El equipo debe comprobar que no se repite ningún pin, que cada constante del programa coincide con el cableado y que la tabla de pruebas se realiza con esta asignación.

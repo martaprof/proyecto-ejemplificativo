@@ -2,7 +2,9 @@
 
 ## Propósito
 
-Introducir una forma sencilla de ajustar la respuesta del servomotor en función de una variable medida.
+Cerrar el subsistema de control del servomotor mediante una respuesta proporcional sencilla en función de una variable medida.
+
+Esta sesión deja preparado el control del servo antes de la integración inicial de la sesión 17. Para ello se trabaja con la simulación de Tinkercad de seguimiento solar y con los programas `control-servomotor-seguimiento.ino` y `control-servomotor-seguimiento_comentado.ino`.
 
 ## Pregunta de trabajo
 
@@ -107,7 +109,7 @@ El programa compara dos lecturas de luz:
 - `A0`: luz izquierda;
 - `A1`: luz derecha.
 
-Calcula el error como `luzIzq - luzDch`, lo transforma en una posición objetivo con `map(error, -700, 700, 0, 180)` y actualiza la posición del servomotor mediante un control proporcional con `Kp = 0.2`.
+Calcula el error como `luzIzq - luzDcha`, lo transforma en una posición objetivo con `map(error, -700, 700, 0, 180)` y actualiza la posición del servomotor mediante un control proporcional con `Kp = 0.2`.
 
 ## Tarea para casa
 

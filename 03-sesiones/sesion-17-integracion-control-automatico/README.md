@@ -33,11 +33,21 @@ La separación en varios documentos evita que una sesión de integración se con
 
 ## Desarrollo de la sesión
 
-1. Revisión del código de sensores.
-2. Incorporación del control del servomotor.
-3. Prueba de casos extremos.
-4. Corrección de errores.
-5. Registro de comportamiento esperado y observado.
+La sesión se organiza siguiendo una secuencia cerrada de 55 minutos:
+
+| Minutos | Foco de trabajo | Resultado esperado |
+| --- | --- | --- |
+| 0-4 | Diagnóstico inicial del estado de sensores, avisos y servo. | Cada equipo identifica qué parte tiene comprobada y qué parte puede fallar. |
+| 4-8 | Explicación del ciclo medir-decidir-actuar. | El alumnado relaciona sensor, condición y respuesta del sistema. |
+| 8-12 | Traducción variable-condición-acción. | Cada equipo formula una condición en lenguaje natural y su comparación de código. |
+| 12-16 | Revisión del mapa de pines integrado. | Se comprueba la asignación: LED luz `11`, LED humedad `10`, LED temperatura `8`, zumbador `7` y servo `9`. |
+| 16-20 | Comprobación del mapa de pines en la actividad. | El equipo marca entradas, salidas y posibles duplicidades. |
+| 20-24 | Explicación de integración incremental. | Se fija la regla de probar una parte cada vez. |
+| 24-30 | Validación por partes. | Se prueban sensores, avisos y servo antes de integrar condiciones. |
+| 30-35 | Integración de una primera condición. | El equipo traduce una frase de control a comparación de código y acción. |
+| 35-40 | Simulación y depuración ordenada. | Se prueba la condición integrada y se documenta el fallo o comprobación. |
+| 40-53 | Pruebas por escenarios extremos. | Se completa la tabla de pruebas con respuesta esperada, observada y corrección. |
+| 53-55 | Cierre y commit. | Se entregan evidencias con el mensaje `Sesion 17 - integracion control automatico - Equipo X`. |
 
 ## Diagramas Mermaid de apoyo
 
@@ -99,13 +109,17 @@ flowchart TD
 
 ## Actividad del alumnado
 
-Entregar una simulación integrada del subsistema automático y explicar qué variable controla el movimiento.
+Completar `actividad-integracion-control.md`, revisar `mapa-pines-integrado.md`, validar sensores, avisos y servomotor por separado, integrar una primera condición de control, ejecutar pruebas por escenarios extremos y entregar las evidencias mediante commit o aula virtual.
 
 ## Evidencias
 
-- Simulación integrada.
-- Código actualizado.
-- Tabla de pruebas.
+- Mapa de pines revisado.
+- `plantilla-integracion-control.md` completada.
+- `plantilla-pruebas-control-automatico.md` completada.
+- Código parcial o integrado con cambios documentados.
+- Captura o enlace de simulación.
+- Registro de al menos un error o comprobación.
+- Commit con el mensaje `Sesion 17 - integracion control automatico - Equipo X`.
 
 ## Explicación para el alumnado
 
@@ -125,9 +139,11 @@ La documentación del subsistema automático debe recoger el mapa de pines, el c
 
 La sesión comienza revisando el código de sensores. Antes de añadir el servomotor, cada equipo debe comprobar que las lecturas de luz, temperatura y humedad simulada siguen funcionando. Si una lectura falla, no tiene sentido integrar más elementos todavía.
 
-Después se incorpora el control del servomotor. El alumnado debe revisar el mapa de pines para confirmar que cada componente tiene una asignación única. En la propuesta integrada, el aviso de temperatura usa el pin 8. El servomotor usa el pin 9. Esta asignación debe respetarse tanto en el cableado como en el código.
+Después se revisa el mapa de pines para confirmar que cada componente tiene una asignación única. En la propuesta integrada, el LED de luz usa el pin 11, el LED de humedad usa el pin 10, el LED de temperatura usa el pin 8, el zumbador usa el pin 7 y el servomotor usa el pin 9. Esta asignación debe respetarse tanto en el cableado como en el código.
 
-A continuación se prueban casos extremos. Por ejemplo, mucha luz en una LDR y poca en la otra, humedad simulada fuera de rango o temperatura alta. El objetivo es comprobar si el sistema mide, decide y actúa de forma coherente en situaciones claras. Las pruebas extremas ayudan a detectar errores antes que las situaciones intermedias.
+A continuación se valida por partes. Primero se comprueban sensores en monitor serie, después LED y zumbador, después el servo con programa mínimo y solo entonces se integra una primera condición. La condición se escribe primero en lenguaje natural, por ejemplo: si la lectura izquierda es mayor que la derecha, mover el servo hacia un lado. Después se traduce a una comparación de código y se comprueba en simulación.
+
+Una vez integrada la primera condición, se prueban casos extremos. Por ejemplo, mucha luz en una LDR y poca en la otra, lecturas similares, humedad simulada fuera de rango o temperatura alta. El objetivo es comprobar si el sistema mide, decide y actúa de forma coherente en situaciones claras. Las pruebas extremas ayudan a detectar errores antes que las situaciones intermedias.
 
 La corrección de errores se realizará de forma ordenada. Si el servo no se mueve, se revisará alimentación, masa, pin de señal y código. Si los avisos dejan de funcionar, se revisará el cambio de pines. Si las lecturas son incoherentes, se comprobarán entradas analógicas y monitor serie.
 
@@ -146,6 +162,8 @@ Un mapa de pines ayuda a comprobar que la asignación de entradas y salidas es c
 | Humedad simulada | A2 |
 | LDR izquierda para servo | A3 |
 | LDR derecha para servo | A4 |
+| LED luz baja | 11 |
+| LED humedad | 10 |
 | Zumbador | 7 |
 | LED temperatura | 8 |
 | Servo | 9 |
@@ -164,7 +182,7 @@ Antes de probar el programa integrado, conviene comprobar que cada componente fu
 - Simulación del subsistema con servo: [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE).
 - Código de referencia del control con servomotor: [`../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino`](../../07-recursos-tecnicos/codigo/control-servomotor-seguimiento.ino).
 - Programa integrado propuesto: [`../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino`](../../07-recursos-tecnicos/codigo/sistema-invernadero-integrado.ino).
-- Mapa de pines de la propuesta integrada: LED de temperatura en `8` y servomotor en `9`.
+- Mapa de pines de la propuesta integrada: LED de luz en `11`, LED de humedad en `10`, LED de temperatura en `8`, zumbador en `7` y servomotor en `9`.
 - Plantilla de tabla de pruebas para el subsistema automático: [`plantilla-pruebas-control-automatico.md`](plantilla-pruebas-control-automatico.md).
 - Guion docente detallado: [`guion-docente-sesion-17.md`](guion-docente-sesion-17.md).
 - Actividad guiada de integración: [`actividad-integracion-control.md`](actividad-integracion-control.md).
@@ -173,7 +191,7 @@ Antes de probar el programa integrado, conviene comprobar que cada componente fu
 
 ## Nota técnica
 
-La propuesta integrada utiliza el pin `8` para el LED de temperatura y el pin `9` para el servomotor. El equipo debe comprobar que estas constantes coinciden con el cableado antes de ejecutar las pruebas por escenarios.
+La propuesta integrada utiliza el pin `11` para el LED de luz, el pin `10` para el LED de humedad, el pin `8` para el LED de temperatura, el pin `7` para el zumbador y el pin `9` para el servomotor. El equipo debe comprobar que estas constantes coinciden con el cableado antes de ejecutar las pruebas por escenarios.
 
 ## Tarea para casa
 

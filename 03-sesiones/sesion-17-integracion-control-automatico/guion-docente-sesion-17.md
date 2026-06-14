@@ -46,14 +46,17 @@ El docente debe insistir en que no se cambia todo a la vez. La integración se v
 
 | Minutos | Acción docente | Acción del alumnado | Material |
 | --- | --- | --- | --- |
-| 0-5 | Recuerda subsistemas ya trabajados: sensores, avisos y servo. | Identifica qué partes tiene ya su equipo. | README de la sesión. |
-| 5-12 | Explica el ciclo medir-decidir-actuar con el primer diagrama Mermaid. | Relaciona sensor, condición y respuesta. | Diagrama Mermaid "Ciclo medir-decidir-actuar". |
-| 12-20 | Presenta el mapa de pines integrado y comprueba que no hay duplicidades. | Marca entradas, salidas y asignaciones de pines. | `mapa-pines-integrado.md`. |
-| 20-30 | Pide validación por partes usando el diagrama de integración incremental. | Comprueba sensores, avisos y servo por separado. | Diagrama Mermaid "Integración incremental" y plantilla de integración. |
-| 30-42 | Guía integración incremental. | Une bloques y registra cada cambio. | Código parcial o simulación. |
-| 42-50 | Dirige pruebas por escenarios extremos y aplica el diagrama de depuración si aparece un fallo. | Completa tabla de pruebas. | Plantilla de pruebas y diagrama Mermaid "Depuración ordenada". |
-| 50-53 | Revisa errores y decisiones y aplica la lista de cotejo como registro docente. | Completa evidencias pendientes y prepara la entrega. | Lista de cotejo docente. |
-| 53-55 | Indica commit o entrega. | Guarda evidencias con mensaje pautado. | Fork del equipo. |
+| 0-4 | Proyecta el README y recupera sensores, LED de aviso, zumbador, lectura analógica y servomotor. Pregunta qué parte tiene comprobada cada equipo y qué puede fallar al integrarla. | Responde desde el estado real de su equipo e identifica riesgos de integración. | README de la sesión. |
+| 4-8 | Proyecta el diagrama Mermaid "Ciclo medir-decidir-actuar" y explica medir, comparar, decidir y actuar con ejemplos del invernadero. | Relaciona cada sensor con una condición y con una respuesta del sistema. | Diagrama Mermaid del README. |
+| 8-12 | Pide una traducción rápida en tres columnas: variable medida, condición y acción. | Escribe ejemplos como `lecturaIzquierda > lecturaDerecha` y acción del servo. | Actividad guiada o cuaderno. |
+| 12-16 | Abre `mapa-pines-integrado.md` y el diagrama de asignación de pines. Explica la tabla de integración. | Atiende a la asignación única de entradas y salidas. | Mapa de pines y diagrama Mermaid. |
+| 16-20 | Pide revisar el mapa de pines en la actividad. | Marca entradas analógicas, salidas digitales y posibles duplicidades. | `actividad-integracion-control.md`. |
+| 20-24 | Proyecta el diagrama Mermaid "Integración incremental" y fija la regla de probar una parte cada vez. | Ordena las comprobaciones antes de integrar condiciones. | Diagrama Mermaid del README. |
+| 24-30 | Supervisa la validación por partes. | Comprueba lectura de luz, temperatura, humedad simulada, LED, zumbador y servo mínimo. | `plantilla-integracion-control.md`. |
+| 30-35 | Propone integrar una primera condición sencilla y guía con preguntas. | Escribe la condición en lenguaje natural, comparación de código y acción esperada. | Actividad guiada y código parcial. |
+| 35-40 | Pide ejecutar la simulación con la condición integrada y usar depuración ordenada si falla. | Prueba la condición, documenta el cambio o registra el error. | Simulación y diagrama "Depuración ordenada". |
+| 40-53 | Dirige pruebas por escenarios extremos y aplica la lista de cotejo como observación docente. | Completa la tabla de pruebas con respuesta esperada, observada y corrección. | `plantilla-pruebas-control-automatico.md` y lista docente. |
+| 53-55 | Cierra con commit o entrega. | Guarda evidencias con mensaje pautado. | Fork del equipo o aula virtual. |
 
 ## Explicación del ciclo medir-decidir-actuar
 
@@ -105,10 +108,9 @@ El docente debe prohibir cambios masivos sin registro. La secuencia recomendada 
 2. Comprobar LED y zumbador.
 3. Comprobar servo con programa mínimo.
 4. Revisar mapa de pines.
-5. Integrar el servo con el código de sensores.
-6. Probar una sola condición.
-7. Añadir el resto de condiciones.
-8. Registrar errores y soluciones.
+5. Integrar una sola condición.
+6. Probar escenarios extremos.
+7. Registrar evidencia, error o comprobación.
 
 Cada paso debe tener una evidencia breve: captura, tabla, comentario de código o registro en plantilla.
 
