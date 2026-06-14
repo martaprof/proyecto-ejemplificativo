@@ -17,7 +17,7 @@ Esta carpeta recoge los programas Arduino asociados al proyecto.
 | [`control-servomotor-seguimiento_comentado.ino`](control-servomotor-seguimiento_comentado.ino) | Versión comentada del control proporcional con dos LDR y servomotor. |
 | [`integracion_control_servomotor.ino`](integracion_control_servomotor.ino) | Programa de apoyo para validar el subsistema de seguimiento antes de integrarlo con el resto del proyecto. |
 | [`integracion_control_servomotor_comentado.ino`](integracion_control_servomotor_comentado.ino) | Versión comentada del programa de integración del control del servomotor. |
-| [`sistema-invernadero-integrado.ino`](sistema-invernadero-integrado.ino) | Código integrado propuesto para combinar medición, avisos y control con servomotor resolviendo el conflicto del pin `9`. |
+| [`sistema-invernadero-integrado.ino`](sistema-invernadero-integrado.ino) | Código integrado propuesto para combinar medición, avisos y control con servomotor usando una asignación de pines única. |
 | [`pruebas/`](pruebas/) | Códigos mínimos para probar LED, LDR, TMP36, potenciómetro, zumbador y servomotor por separado. |
 
 ## Sistema de medición del invernadero
@@ -36,7 +36,7 @@ También utiliza tres salidas digitales:
 | --- | --- |
 | `11` | Aviso asociado a baja luminosidad. |
 | `10` | Aviso asociado a humedad simulada fuera de rango. |
-| `9` | Aviso asociado a temperatura elevada. |
+| `8` | Aviso asociado a temperatura elevada. |
 
 Los umbrales empleados en el código de referencia son:
 
@@ -59,7 +59,7 @@ El servomotor se conecta al pin digital `9`. El programa calcula el error entre 
 
 ## Código integrado propuesto
 
-El archivo `sistema-invernadero-integrado.ino` combina los dos códigos de referencia en un único programa. Para evitar el conflicto del pin `9`, se propone esta nueva asignación:
+El archivo `sistema-invernadero-integrado.ino` combina medición, avisos y control con servomotor en un único programa. La asignación de pines propuesta es:
 
 | Pin | Función |
 | --- | --- |

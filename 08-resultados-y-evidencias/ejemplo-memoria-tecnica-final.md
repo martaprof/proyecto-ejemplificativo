@@ -34,9 +34,9 @@ Se ha empleado como base el archivo `sistema-medicion-invernadero.ino`. Para la 
 | Temperatura alta | LED de temperatura activo | Resultado a registrar si se valida en Tinkercad. |
 | Humedad fuera de rango | LED de humedad activo | Resultado a registrar si se valida en Tinkercad. |
 
-## 6. Errores encontrados
+## 6. Comprobaciones realizadas
 
-Ejemplo: conflicto del pin `9` entre el aviso de temperatura y el servomotor. Solución propuesta: mantener el servo en `9` y mover el LED de temperatura al pin `8`.
+Ejemplo: se comprueba que el LED de temperatura está conectado al pin `8`, que el servomotor está conectado al pin `9` y que las constantes del programa coinciden con el cableado.
 
 ## 7. Mejoras
 

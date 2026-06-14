@@ -14,7 +14,7 @@ void setup()
   pinMode(A2, INPUT);
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
-  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
 }
 
 void loop()
@@ -35,7 +35,7 @@ void loop()
     digitalWrite(10, HIGH);
   }
   if (tempValue > 155) {
-    digitalWrite(9, HIGH);
+    digitalWrite(8, HIGH);
   }
   delay(200); // Wait for 200 millisecond(s)
   digitalWrite(11, LOW);

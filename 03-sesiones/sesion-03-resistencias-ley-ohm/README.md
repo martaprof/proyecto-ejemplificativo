@@ -15,7 +15,7 @@ Este README es el **punto de entrada** de la sesión. Sirve para entender qué s
 | Momento | Archivo que se usa | Función |
 | --- | --- | --- |
 | Antes de clase | [`guion-docente-sesion-03.md`](guion-docente-sesion-03.md) | Preparar la explicación, los tiempos, las preguntas y la intervención docente. |
-| Introducción teórica | [`presentacion-sesion-03-ley-ohm.pptx`](presentacion-sesion-03-ley-ohm.pptx) | Explicar voltaje, intensidad y resistencia con apoyo visual. |
+| Introducción teórica | [`presentacion-ley-de-ohm.pptx`](presentacion-ley-de-ohm.pptx) | Explicar voltaje, intensidad y resistencia con apoyo visual. |
 | Demostración conceptual | [PhET Ley de Ohm](https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html) | Mostrar cómo cambian voltaje, resistencia e intensidad. |
 | Trabajo del equipo | [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md) | Guiar paso a paso la observación en PhET y la aplicación al LED. |
 | Registro individual/equipo | [`plantilla-calculos.md`](plantilla-calculos.md) | Documentar datos, fórmula, cálculo, valor comercial y conclusión. |
@@ -51,7 +51,7 @@ La separación en tres documentos evita mezclar funciones: el README orienta, el
 - Lista de cotejo: [`lista-cotejo.md`](lista-cotejo.md).
 - Guion docente detallado: [`guion-docente-sesion-03.md`](guion-docente-sesion-03.md).
 - Actividad de simulación guiada: [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md).
-- Presentación de aula: [`presentacion-sesion-03-ley-ohm.pptx`](presentacion-sesion-03-ley-ohm.pptx).
+- Presentación de aula: [`presentacion-ley-de-ohm.pptx`](presentacion-ley-de-ohm.pptx).
 
 ## Desarrollo de la sesión
 
@@ -156,7 +156,7 @@ Como 300 ohmios no siempre es un valor disponible, se puede escoger un valor com
 - Valores de referencia para LED de 5 mm: rojo 2,0 V, amarillo 2,1 V, verde 2,2 V, corriente de trabajo 10 mA y resistencia recomendada de 330 Ω. Más detalle en [`../../07-recursos-tecnicos/componentes-y-valores.md`](../../07-recursos-tecnicos/componentes-y-valores.md).
 - Guion docente detallado de implementación: [`guion-docente-sesion-03.md`](guion-docente-sesion-03.md).
 - Actividad de simulación para el alumnado: [`actividad-simulador-ley-ohm.md`](actividad-simulador-ley-ohm.md).
-- Presentación para explicar tensión, corriente, resistencia y cálculo de LED: [`presentacion-sesion-03-ley-ohm.pptx`](presentacion-sesion-03-ley-ohm.pptx).
+- Presentación para explicar tensión, corriente, resistencia y cálculo de LED: [`presentacion-ley-de-ohm.pptx`](presentacion-ley-de-ohm.pptx).
 - Simulador obligatorio para introducir la ley de Ohm: [PhET Ley de Ohm](https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_all.html).
 - Simulación de Tinkercad con LED y resistencia alimentado desde Arduino: [ejemplo Arduino parpadeo](https://www.tinkercad.com/things/25No14mKhS5-ejemplo-arduino-parpadeo?sharecode=UMIXAGedoYi1nZC9qtnpt3lwJCOi-uCFFe28hqSTeBw).
 - Plantilla de cálculos: [`plantilla-calculos.md`](plantilla-calculos.md).

@@ -19,7 +19,7 @@ La sesión no se plantea como una explicación aislada de fórmula, sino como re
 
 Antes de clase, el docente debe tener preparados:
 
-- presentación `presentacion-sesion-03-ley-ohm.pptx`;
+- presentación `presentacion-ley-de-ohm.pptx`;
 - README de la sesión proyectado;
 - plantilla de cálculos `plantilla-calculos.md`;
 - actividad del simulador `actividad-simulador-ley-ohm.md`;

@@ -97,7 +97,7 @@ El código `control-servomotor-seguimiento.ino` utiliza `A0` y `A1` para compara
 
 ## Propuesta de integración final
 
-Para integrar medición, avisos y servomotor en un único programa, se ha creado [`codigo/sistema-invernadero-integrado.ino`](codigo/sistema-invernadero-integrado.ino). Esta versión mantiene el servomotor en el pin `9` y traslada el aviso de temperatura al pin `8`, resolviendo el conflicto detectado entre los dos códigos originales. El sistema de medición y avisos se considera producto mínimo final; el servomotor queda como ampliación integrada opcional.
+Para integrar medición, avisos y servomotor en un único programa, se ha creado [`codigo/sistema-invernadero-integrado.ino`](codigo/sistema-invernadero-integrado.ino). Esta versión utiliza una asignación de pines única para sensores, avisos y servomotor. El sistema de medición y avisos se considera producto mínimo final, el servomotor queda como ampliación integrada opcional.
 
 | Pin | Función integrada |
 | --- | --- |
