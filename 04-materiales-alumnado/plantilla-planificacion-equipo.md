@@ -4,22 +4,36 @@
 
 - Nombre del equipo:
 - Integrantes:
+- Curso y grupo:
 - Fecha de inicio:
 - Fecha prevista de entrega:
+- Enlace al fork del equipo:
 
-## Roles
+## Organización general
 
-| Rol | Responsable | Funciones |
-| --- | --- | --- |
-| Coordinación |  | Organiza tareas y controla tiempos. |
-| Montaje |  | Revisa conexiones y protoboard. |
-| Programación |  | Gestiona el código y las pruebas. |
-| Documentación |  | Actualiza memoria, capturas y tablas. |
-| Verificación |  | Comprueba resultados y registra errores. |
+El equipo estará formado preferentemente por 3 estudiantes. Cada equipo trabajará con un ordenador y los roles se repartirán para evitar que una sola persona controle toda la actividad.
+
+## Roles del equipo
+
+| Rol | Responsable | Funciones | Evidencia que debe cuidar |
+| --- | --- | --- | --- |
+| Coordinación-documentación |  | Lee instrucciones, controla tiempos, registra acuerdos y prepara commits. | Plantillas, memoria técnica y mensajes de commit. |
+| Simulación-montaje |  | Maneja Tinkercad, revisa conexiones, guarda capturas y enlaces. | Simulaciones, capturas, esquemas y material físico. |
+| Programación-verificación |  | Edita código, ejecuta pruebas, revisa errores y comprueba listas de cotejo. | Código, tabla de pruebas, errores y soluciones. |
+
+## Rotación de roles
+
+| Bloque de sesiones | Quién asume coordinación-documentación | Quién asume simulación-montaje | Quién asume programación-verificación |
+| --- | --- | --- | --- |
+| Sesiones 01-03 |  |  |  |
+| Sesiones 04-08 |  |  |  |
+| Sesiones 09-13 |  |  |  |
+| Sesiones 14-18 |  |  |  |
+| Sesiones 19-21 |  |  |  |
 
 ## Plan de trabajo
 
-| Tarea | Responsable | Fecha prevista | Evidencia que se entregará | Estado |
+| Tarea | Responsable principal | Fecha prevista | Evidencia que se entregará | Estado |
 | --- | --- | --- | --- | --- |
 | Analizar el problema |  |  |  |  |
 | Revisar componentes |  |  |  |  |
@@ -29,6 +43,12 @@
 | Integrar sistema |  |  |  |  |
 | Preparar memoria |  |  |  |  |
 | Preparar exposición |  |  |  |  |
+
+## Registro de commits o entregas
+
+| Fecha | Sesión | Mensaje de commit o entrega | Responsable | Enlace o ubicación |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
 
 ## Reuniones o revisiones
 
@@ -44,3 +64,5 @@
 | Error de conexión |  |
 | Código incompleto |  |
 | Reparto desigual de trabajo |  |
+| Una persona controla siempre el ordenador |  |
+| No se guardan evidencias |  |

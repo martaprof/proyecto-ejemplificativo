@@ -22,7 +22,8 @@ Presentar el reto del proyecto, contextualizar el problema del invernadero y fam
 3. Identificación de variables que se pueden medir electrónicamente.
 4. Demostración inicial de Tinkercad.
 5. Creación de una cuenta o acceso al entorno.
-6. Simulación guiada de un circuito sencillo con LED y resistencia.
+6. Acceso al repositorio limpio de aula y explicación rápida del fork de equipo.
+7. Simulación guiada de un circuito sencillo con LED y resistencia.
 
 ## Esquema de la sesión
 
@@ -68,6 +69,8 @@ La demostración inicial de Tinkercad sirve para reconocer el entorno de trabajo
 
 Si es necesario, se dedicará un momento a crear una cuenta o acceder al entorno. Es importante que el alumnado guarde correctamente sus proyectos y use nombres claros. Un nombre como `sesion-01-led-inicial` es más útil que `prueba1`, porque facilita encontrar el trabajo más adelante.
 
+También se dedicará un breve momento a explicar el acceso al repositorio. El docente compartirá el enlace del fork limpio de aula, no el repositorio completo con materiales docentes y soluciones. Cada equipo abrirá la guía [`../../04-materiales-alumnado/guia-acceso-github-alumnado.md`](../../04-materiales-alumnado/guia-acceso-github-alumnado.md), creará su propio fork de equipo y guardará el enlace en la plantilla de planificación. El objetivo no es aprender Git avanzado, sino disponer de un cuaderno técnico digital donde completar plantillas, guardar evidencias y registrar commits sencillos.
+
 La sesión termina con una simulación guiada de un circuito sencillo con LED y resistencia. Esta práctica no es todavía el sistema del invernadero, pero introduce una idea fundamental: una salida eléctrica puede producir un aviso visual. El alumnado debe guardar una captura o enlace y anotar qué hace cada componente del circuito.
 
 ## Ejemplo guiado
@@ -92,6 +95,7 @@ La sesión termina con una simulación guiada de un circuito sencillo con LED y 
   - [Sistema de medición y avisos](https://www.tinkercad.com/things/3on4m9JvWh7-trabajo-sseeaa-v1propuesta?sharecode=q2vl_FfWG2tkQxQOPodN3ewpNu7l-yVzb_g3ALkwVxg)
   - [Etapa de seguimiento solar con servomotor](https://www.tinkercad.com/things/aRNDZSPHZcX-etapa-seguimiento-solar-tf?sharecode=kKcNWQnmSy7arhajMAyJd6F-GNIOCS8g0InQc2yN5jE)
 - Simulación básica de iniciación en Tinkercad: [pila, interruptor, resistencia y LED](https://www.tinkercad.com/things/lXa7S6Mi7Ev-ejemplo-pila-led-r?sharecode=9hK1W_MurxI69iXQonJ_-hiSQ_bVDPTSXZ4aiv7R320).
+
 ![Captura de la simulación básica con pila, interruptor, resistencia y LED](ejemplo_tinkercad.png)
 - Esquema introductorio de un invernadero didáctico en esta sesión.
 
@@ -124,3 +128,5 @@ Materiales de apoyo:
 - Plantilla de lluvia de ideas: [`plantilla-brainstorming.md`](plantilla-brainstorming.md).
 - Lista de cotejo de la sesión: [`lista-cotejo.md`](lista-cotejo.md).
 - Captura de la simulación inicial: [`ejemplo_tinkercad.png`](ejemplo_tinkercad.png).
+- Guía de acceso a GitHub para el alumnado: [`../../04-materiales-alumnado/guia-acceso-github-alumnado.md`](../../04-materiales-alumnado/guia-acceso-github-alumnado.md).
+- Plantilla de planificación del equipo: [`../../04-materiales-alumnado/plantilla-planificacion-equipo.md`](../../04-materiales-alumnado/plantilla-planificacion-equipo.md).

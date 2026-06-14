@@ -38,7 +38,10 @@ Se recomienda combinar:
 
 - trabajo individual para ejercicios de cálculo, reflexiones y pequeñas tareas de programación;
 - parejas o pequeños grupos para simulación;
-- equipos de 3 o 4 estudiantes para el montaje final y la presentación.
+- equipos de 3 estudiantes como agrupamiento principal del proyecto;
+- parejas solo cuando el número de alumnado u ordenadores no permita equipos de 3.
+
+Cada equipo trabajará con un ordenador y roles rotatorios. Se evita la formación de grupos grandes para reducir el riesgo de reparto desigual de tareas.
 
 ## Atención a la diversidad
 

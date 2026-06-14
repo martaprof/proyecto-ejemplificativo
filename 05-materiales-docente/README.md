@@ -39,3 +39,8 @@ El proyecto debe plantearse como un reto abierto, pero con andamiaje suficiente 
 - Revisar primero el esquema antes de permitir el montaje físico.
 - Pedir que cada equipo documente errores y soluciones.
 - Introducir roles: coordinación, montaje, programación, documentación y pruebas.
+
+## Guías de implementación de aula
+
+- Preparación del fork limpio para alumnado: [`guia-preparacion-fork-alumnado.md`](guia-preparacion-fork-alumnado.md).
+- Gestión del aula, equipos de 3, roles y rotación: [`gestion-aula-equipos.md`](gestion-aula-equipos.md).

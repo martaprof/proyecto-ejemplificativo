@@ -19,12 +19,14 @@ Cada equipo deberá entregar:
 - memoria técnica;
 - presentación final;
 - reflexión sobre mejoras posibles.
+- commits o entregas parciales con mensajes claros.
 
 ## Materiales que se desarrollarán
 
 - Guion inicial del reto.
 - Ficha de análisis del problema.
 - Plantilla de planificación del equipo.
+- Guía de acceso a GitHub para el alumnado: [`guia-acceso-github-alumnado.md`](guia-acceso-github-alumnado.md).
 - Fichas de cálculo de circuitos.
 - Guion de simulación en Tinkercad.
 - Guion de programación en Arduino.

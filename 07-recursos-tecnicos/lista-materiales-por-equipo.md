@@ -1,6 +1,6 @@
 # Lista de materiales por equipo
 
-Esta lista es una propuesta inicial para un equipo de 3 o 4 estudiantes. Debe ajustarse al inventario real del centro.
+Esta lista es una propuesta inicial para un equipo de 3 estudiantes. Debe ajustarse al inventario real del centro. Si por organización del aula se trabaja en parejas, se mantendrá un lote de materiales equivalente por pareja.
 
 | Elemento | Cantidad recomendada | Uso |
 | --- | ---: | --- |
