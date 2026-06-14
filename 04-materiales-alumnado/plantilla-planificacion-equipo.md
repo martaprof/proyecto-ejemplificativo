@@ -19,7 +19,7 @@ El equipo estará formado preferentemente por 3 estudiantes. Cada equipo trabaja
 | --- | --- | --- | --- |
 | Coordinación-documentación |  | Lee instrucciones, controla tiempos, registra acuerdos y prepara commits. | Plantillas, memoria técnica y mensajes de commit. |
 | Simulación-montaje |  | Maneja Tinkercad, revisa conexiones, guarda capturas y enlaces. | Simulaciones, capturas, esquemas y material físico. |
-| Programación-verificación |  | Edita código, ejecuta pruebas, revisa errores y comprueba listas de cotejo. | Código, tabla de pruebas, errores y soluciones. |
+| Programación-verificación |  | Edita código, ejecuta pruebas, revisa errores y comprueba que las evidencias coinciden con la actividad. | Código, tabla de pruebas, errores y soluciones. |
 
 ## Rotación de roles
 

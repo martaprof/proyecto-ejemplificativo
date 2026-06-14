@@ -64,7 +64,7 @@ El README funciona como guion de trabajo: indica qué se va a aprender, qué hay
 
 ## Cómo editar un README o una plantilla
 
-1. Abre el archivo indicado por el profesor, por ejemplo `README.md`, `plantilla-calculos.md`, `plantilla-programacion.md` o una lista de cotejo.
+1. Abre el archivo indicado por el profesor, por ejemplo `README.md`, `plantilla-calculos.md`, `plantilla-programacion.md` o una actividad guiada.
 2. Pulsa el icono del lápiz.
 3. Completa los apartados que correspondan.
 4. Usa la pestaña **Preview** para comprobar que las tablas, listas y enlaces se ven bien.
@@ -171,7 +171,7 @@ Cada equipo de 3 trabajará con estos roles:
 | --- | --- |
 | Coordinación-documentación | Lee instrucciones, controla tiempos, completa plantillas y prepara el commit. |
 | Simulación-montaje | Maneja Tinkercad, revisa conexiones y guarda capturas o enlaces. |
-| Programación-verificación | Revisa código, ejecuta pruebas y comprueba la lista de cotejo. |
+| Programación-verificación | Revisa código, ejecuta pruebas y comprueba que las evidencias coinciden con la actividad. |
 
 Los roles rotan durante el proyecto. Aunque tengas un rol, debes entender lo que hacen tus compañeros, porque todos sois responsables del resultado final.
 
@@ -181,7 +181,7 @@ Antes de salir de clase, el equipo debe comprobar:
 
 - la plantilla está completada;
 - la simulación, cálculo o código funciona o tiene errores documentados;
-- la lista de cotejo está revisada;
+- las evidencias indicadas por el docente están preparadas;
 - el commit tiene un mensaje claro;
 - todos los integrantes saben explicar qué se ha aprendido.
 

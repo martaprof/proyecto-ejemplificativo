@@ -38,7 +38,7 @@ Los roles combinan responsabilidades para que tres estudiantes puedan cubrir tod
 | --- | --- | --- |
 | Coordinación-documentación | Controla tiempos, lee instrucciones, completa acuerdos, registra conclusiones y prepara el commit. | Plantillas, memoria técnica, mensajes de commit. |
 | Simulación-montaje | Abre Tinkercad, modifica componentes, comprueba conexiones y prepara capturas. | Enlaces de simulación, capturas, esquemas revisados. |
-| Programación-verificación | Edita código, ejecuta pruebas, revisa errores y contrasta con la lista de cotejo. | Código, tabla de pruebas, errores y soluciones. |
+| Programación-verificación | Edita código, ejecuta pruebas, revisa errores y contrasta los resultados con la actividad propuesta. | Código, tabla de pruebas, errores y soluciones. |
 
 Los roles no significan que cada estudiante trabaje aislado. El equipo debe decidir en conjunto, pero cada rol asegura que una parte del proceso no queda olvidada.
 
@@ -81,7 +81,7 @@ En modalidad online o mixta:
 - el docente comparte el enlace directo al README de la sesión;
 - cada equipo trabaja en sala o canal específico;
 - las evidencias se entregan mediante commits, enlaces de Tinkercad o aula virtual;
-- la lista de cotejo se usa como cierre obligatorio.
+- el docente usa la lista de cotejo como cierre evaluativo interno.
 
 Si el alumnado trabaja desde casa, se prioriza la simulación en Tinkercad frente al montaje físico.
 
@@ -103,7 +103,6 @@ Al terminar cada sesión, cada equipo debe dejar tres elementos localizados:
 
 1. Evidencia técnica: cálculo, simulación, código o tabla de pruebas.
 2. Evidencia documental: plantilla o memoria técnica actualizada.
-3. Evidencia de seguimiento: lista de cotejo, commit o entrega en aula virtual.
+3. Evidencia de seguimiento: commit, entrega en aula virtual o registro de evaluación docente.
 
 Sin esas tres evidencias, el producto puede funcionar, pero el aprendizaje queda poco visible.
-

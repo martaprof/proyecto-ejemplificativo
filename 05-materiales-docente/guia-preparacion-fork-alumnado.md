@@ -13,7 +13,7 @@ El fork de aula debe conservar:
 - la estructura general del proyecto;
 - los README de presentación de cada sesión;
 - las plantillas de trabajo;
-- las listas de cotejo;
+- las listas de cotejo se reservan para el repositorio o carpeta de trabajo del docente;
 - las imágenes y capturas de apoyo;
 - los enlaces a simulaciones;
 - los recursos que permiten investigar, calcular, simular y documentar.
@@ -203,7 +203,7 @@ En ese caso, cada equipo descarga o copia las plantillas, trabaja en documentos 
 - capturas;
 - enlaces de Tinkercad;
 - código;
-- lista de cotejo;
+- registro de evaluación del docente;
 - reflexión final.
 
 La memoria seguirá explicando GitHub como estructura docente reutilizable, aunque los commits del alumnado se sustituyan por entregas en el aula virtual.
